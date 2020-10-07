@@ -31,7 +31,45 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <fieldset>
+        <legend>Your information</legend>
+        <p>First and middle name</p>
+        <input type="text" name="firstname" />
+        <p>Last name</p>
+        <input type="text" name="lastname" />
+        <p>Address</p>
+        <input type="text" name="address" />
+        <p>Zip code</p>
+        <input type="text" name="zip" />
+        <p>County</p>
+        <input type="text" name="county" />
+        <p>E-mail address</p>
+        <input type="text" name="email" />
+        <p>Phone number</p>
+        <input type="text" name="tlf" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Delivery method</legend>
+        <input
+          type="checkbox"
+          name="Express"
+          value="Express"
+          id="Express"
+        /><label for="Express">Express home delivery (1-2 days)</label>
+        <input
+          type="checkbox"
+          name="Standard"
+          value="Standard"
+          id="Standard"
+        /><label for="Standard">Standard home delivery (3-4 days)</label>
+        <input type="checkbox" name="Pickup" value="Pickup" id="Pickup" /><label
+          for="Pickup"
+          >Pick up point (3-4 days)</label
+        >
+      </fieldset>
+    </main>
     <footer>
       <section>
         <h3>Help</h3>
