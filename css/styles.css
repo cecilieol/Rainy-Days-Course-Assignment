@@ -48,13 +48,13 @@ li a:hover {
 }
 
 .sale {
-  background: cover no-repeat url("../images/Visuals/orange-forest.jpg");
+  background: url("../images/Visuals/orange-forest.jpg");
 }
 
 .newsletter {
-  background: cover no-repeat url("../images/Visuals/map.jpg");
+  background: url("../images/Visuals/map.jpg");
 }
 
 .news {
-  background: cover no-repeat url("../images/Visuals/yellow-jacket-canoe.jpg");
+  background: url("../images/Visuals/yellow-jacket-canoe.jpg");
 }
