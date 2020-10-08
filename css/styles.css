@@ -22,6 +22,14 @@ p {
   display: inline;
 }
 
+.header-center {
+  float: center;
+}
+
+.header-right {
+  float: right;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,6 +43,7 @@ li {
 }
 
 li a {
+  display: block;
   background-color: #0a3641;
   color: #fff;
   padding: 14px 16px;
