@@ -51,19 +51,22 @@ li a:hover {
   background: url("../images/Visuals/orange-forest.jpg");
   color: #fff;
   background-position: center;
-  height: 80px;
+  height: 150px;
+  background-repeat: no-repeat;
 }
 
 .newsletter {
   background: url("../images/Visuals/map.jpg");
   color: #fff;
-  height: 500px;
+  height: 400px;
   background-position: left;
+  background-repeat: no-repeat;
 }
 
 .news {
   background: url("../images/Visuals/yellow-jacket-canoe.jpg");
   color: #fff;
-  height: 500px;
+  height: 400px;
   background-position: right;
+  background-repeat: no-repeat;
 }
