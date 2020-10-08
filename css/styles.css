@@ -58,7 +58,8 @@ li a:hover {
 .news {
   background: url("../images/Visuals/yellow-jacket-canoe.jpg");
   color: #fff;
-  width: 400px;
+  width: 700px;
+  height: auto;
   float: right;
   background-position: right;
   background-repeat: no-repeat;
@@ -67,7 +68,8 @@ li a:hover {
 .newsletter {
   background: url("../images/Visuals/map.jpg");
   color: #fff;
-  width: 400px;
+  width: 700px;
+  height: auto;
   background-position: left;
   background-repeat: no-repeat;
 }
