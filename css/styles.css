@@ -91,20 +91,28 @@ footer {
 
 .help {
   background-color: #0a3641;
+  color: #fff;
   float: left;
+  line-height: 70%;
 }
 
 .info {
   background-color: #0a3641;
+  color: #fff;
   float: left;
+  line-height: 70%;
 }
 
 .products {
   background-color: #0a3641;
+  color: #fff;
   float: right;
+  line-height: 70%;
 }
 
 .socials {
   background-color: #0a3641;
+  color: #fff;
   float: right;
+  line-height: 70%;
 }
