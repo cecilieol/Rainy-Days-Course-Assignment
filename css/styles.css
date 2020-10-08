@@ -50,20 +50,20 @@ li a:hover {
 .sale {
   background: url("../images/Visuals/orange-forest.jpg");
   color: #fff;
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-position: center;
+  height: 80px;
 }
 
 .newsletter {
   background: url("../images/Visuals/map.jpg");
   color: #fff;
-  background-repeat: no-repeat;
-  background-size: auto;
+  height: 500px;
+  background-position: left;
 }
 
 .news {
   background: url("../images/Visuals/yellow-jacket-canoe.jpg");
   color: #fff;
-  background-repeat: no-repeat;
-  background-size: auto;
+  height: 500px;
+  background-position: right;
 }
