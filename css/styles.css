@@ -2,17 +2,21 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   background-color: #0a3641;
 }
 
 li {
   display: inline;
+  float: left;
 }
 
 li a {
   display: block;
-  padding: 20px;
   background-color: #0a3641;
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
