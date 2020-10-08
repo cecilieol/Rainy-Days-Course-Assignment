@@ -20,6 +20,7 @@ p {
 
 header {
   display: inline;
+  float: left;
 }
 
 ul {
