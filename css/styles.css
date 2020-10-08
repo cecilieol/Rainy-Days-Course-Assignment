@@ -18,9 +18,8 @@ p {
   font-size: 18px;
 }
 
-header {
+.header {
   display: inline;
-  float: left;
 }
 
 ul {
