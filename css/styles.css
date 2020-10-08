@@ -55,19 +55,19 @@ li a:hover {
   background-repeat: no-repeat;
 }
 
-.newsletter {
-  background: url("../images/Visuals/map.jpg");
-  color: #fff;
-  width: 400px;
-  background-position: left;
-  background-repeat: no-repeat;
-}
-
 .news {
   background: url("../images/Visuals/yellow-jacket-canoe.jpg");
   color: #fff;
   width: 400px;
   float: right;
   background-position: right;
+  background-repeat: no-repeat;
+}
+
+.newsletter {
+  background: url("../images/Visuals/map.jpg");
+  color: #fff;
+  width: 400px;
+  background-position: left;
   background-repeat: no-repeat;
 }
