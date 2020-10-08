@@ -25,6 +25,18 @@ p {
   font-size: 18px;
 }
 
+.logo {
+  float: left;
+}
+
+.search {
+  float: center;
+}
+
+.headerlinks {
+  float: right;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
