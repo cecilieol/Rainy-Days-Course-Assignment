@@ -1,28 +1,24 @@
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.container img {
-  width: 1200px;
-  height: auto;
-}
-
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: #0a3641;
-  color: white;
-  font-size: 30px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
 }
 
-.container .btn:hover {
-  background-color: black;
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+  padding: 20px;
+  background-color: #0a3641;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline;
 }
