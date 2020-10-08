@@ -49,12 +49,15 @@ li a:hover {
 
 .sale {
   background: url("../images/Visuals/orange-forest.jpg");
+  color: #fff;
 }
 
 .newsletter {
   background: url("../images/Visuals/map.jpg");
+  color: #fff;
 }
 
 .news {
   background: url("../images/Visuals/yellow-jacket-canoe.jpg");
+  color: #fff;
 }
