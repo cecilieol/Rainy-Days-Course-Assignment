@@ -18,18 +18,6 @@ p {
   font-size: 18px;
 }
 
-.header-left {
-  float: left;
-}
-
-.header-center {
-  float: center;
-}
-
-.header-right {
-  float: right;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -43,7 +31,7 @@ li {
 }
 
 li a {
-  display: inline;
+  display: block;
   background-color: #0a3641;
   color: #fff;
   padding: 14px 16px;
