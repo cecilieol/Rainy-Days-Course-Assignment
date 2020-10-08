@@ -58,7 +58,8 @@ li a:hover {
   background: url("../images/Visuals/orange-forest.jpg");
   color: #fff;
   background-position: center;
-  height: 150px;
+  width: 1280px;
+  height: 118px;
   background-repeat: no-repeat;
 }
 
@@ -77,6 +78,7 @@ li a:hover {
   color: #fff;
   width: 625px;
   height: 395px;
+  text-align: center;
   background-position: left;
   background-repeat: no-repeat;
 }
