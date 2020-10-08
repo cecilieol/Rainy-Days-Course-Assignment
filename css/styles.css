@@ -58,15 +58,15 @@ li a:hover {
 .newsletter {
   background: url("../images/Visuals/map.jpg");
   color: #fff;
-  height: 400px;
-  background-position: left;
+  height: 200px;
+  position: left;
   background-repeat: no-repeat;
 }
 
 .news {
   background: url("../images/Visuals/yellow-jacket-canoe.jpg");
   color: #fff;
-  height: 400px;
-  background-position: right;
+  height: 200px;
+  position: right;
   background-repeat: no-repeat;
 }
