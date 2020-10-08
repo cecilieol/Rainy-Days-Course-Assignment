@@ -87,6 +87,21 @@ li a:hover {
 footer {
   background-color: #0a3641;
   text-align: center;
-  display: inline;
   padding: 10px;
+}
+
+.help {
+  float: left;
+}
+
+.info {
+  float: left;
+}
+
+.products {
+  float: right;
+}
+
+.socials {
+  float: right;
 }
