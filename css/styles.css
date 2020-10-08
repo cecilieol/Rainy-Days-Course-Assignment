@@ -46,3 +46,15 @@ li a:hover {
 .active {
   text-decoration: underline;
 }
+
+.sale {
+  background: cover no-repeat url("../images/Visuals/orange-forest.jpg");
+}
+
+.newsletter {
+  background: cover no-repeat url("../images/Visuals/map.jpg");
+}
+
+.news {
+  background: cover no-repeat url("../images/Visuals/yellow-jacket-canoe.jpg");
+}
