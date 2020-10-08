@@ -91,17 +91,21 @@ footer {
 }
 
 .help {
+  background-color: #0a3641;
   float: left;
 }
 
 .info {
+  background-color: #0a3641;
   float: left;
 }
 
 .products {
+  background-color: #0a3641;
   float: right;
 }
 
 .socials {
+  background-color: #0a3641;
   float: right;
 }
