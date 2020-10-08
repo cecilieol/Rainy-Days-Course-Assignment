@@ -87,5 +87,6 @@ li a:hover {
 footer {
   background-color: #0a3641;
   text-align: center;
+  display: inline;
   padding: 10px;
 }
