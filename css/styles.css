@@ -84,8 +84,8 @@ li a:hover {
   background-repeat: no-repeat;
 }
 
-.site-footer {
+footer {
   background-color: #0a3641;
-  color: #fff;
-  display: inline;
+  text-align: center;
+  padding: 10px;
 }
