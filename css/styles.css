@@ -94,7 +94,8 @@ footer {
   color: #fff;
   float: left;
   line-height: 70%;
-  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .info {
@@ -102,15 +103,8 @@ footer {
   color: #fff;
   float: left;
   line-height: 70%;
-  padding: 50px;
-}
-
-.products {
-  background-color: #0a3641;
-  color: #fff;
-  float: right;
-  line-height: 70%;
-  padding: 50px;
+  padding-right: 100px;
+  padding-right: 100px;
 }
 
 .socials {
@@ -118,5 +112,15 @@ footer {
   color: #fff;
   float: right;
   line-height: 70%;
-  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.products {
+  background-color: #0a3641;
+  color: #fff;
+  float: right;
+  line-height: 70%;
+  padding-left: 100px;
+  padding-right: 100px;
 }
