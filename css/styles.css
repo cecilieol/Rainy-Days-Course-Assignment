@@ -57,9 +57,10 @@ li a:hover {
 .sale {
   background: url("../images/Visuals/orange-forest.jpg");
   color: #fff;
-  background-position: center;
   width: 1280px;
   height: 118px;
+  text-align: center;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
