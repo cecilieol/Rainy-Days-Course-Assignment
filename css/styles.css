@@ -25,16 +25,16 @@ p {
   font-size: 18px;
 }
 
-.logo {
-  width: 100px;
+.headerlinks {
+  margin-left: 1050px;
 }
 
 .search {
   margin-left: 800px;
 }
 
-.headerlinks {
-  margin-left: 1050px;
+.logo {
+  width: 100px;
 }
 
 ul {
