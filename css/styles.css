@@ -26,16 +26,19 @@ p {
 }
 
 .headerlinks {
+  position: relative;
   margin-left: 1050px;
   margin-top: 300px;
 }
 
 .search {
+  position: relative;
   margin-left: 800px;
   margin-top: 300px;
 }
 
 .logo {
+  position: relative;
   width: 100px;
 }
 
