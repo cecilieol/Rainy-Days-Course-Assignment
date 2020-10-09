@@ -98,6 +98,7 @@ li a:hover {
 
 .jordan {
   margin-left: 50px;
+  float: left;
 }
 
 .taylor {
@@ -105,11 +106,12 @@ li a:hover {
 }
 
 .morgan {
-  margin-left: 650px;
+  margin-right: 350px;
 }
 
 .jessie {
-  margin-left: 950px;
+  margin-right: 50px;
+  float: right;
 }
 
 footer {
