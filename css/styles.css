@@ -97,7 +97,8 @@ li a:hover {
 }
 
 .row {
-  display: inline-flex;
+  display: flex;
+  float: center;
 }
 
 .column {
