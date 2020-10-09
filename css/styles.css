@@ -25,6 +25,18 @@ p {
   font-size: 18px;
 }
 
+.logo {
+  width: 150px;
+}
+
+.search {
+  margin-left: 1000px;
+}
+
+.headerlinks {
+  margin-left: 1200px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
