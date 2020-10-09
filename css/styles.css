@@ -98,8 +98,8 @@ li a:hover {
 
 .column {
   float: left;
-  width: 25%;
-  padding: 0px;
+  width: 24%;
+  padding: 5px;
 }
 
 .row::after {
