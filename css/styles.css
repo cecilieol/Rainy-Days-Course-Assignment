@@ -107,7 +107,6 @@ li a:hover {
 }
 
 .sidenav {
-  display: block;
   width: 250px;
   position: relative;
   z-index: 1;
@@ -116,6 +115,10 @@ li a:hover {
   background-color: #fff;
   overflow-x: hidden;
   padding-top: 30px;
+}
+
+#sort {
+  display: block;
 }
 
 footer {
