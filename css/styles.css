@@ -114,7 +114,8 @@ li a:hover {
   left: 0;
   background-color: #fff;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 30px;
+  display: block;
 }
 
 footer {
