@@ -109,7 +109,6 @@ li a:hover {
 .sidenav {
   width: 250px;
   position: relative;
-  z-index: 1;
   top: 0;
   left: 0;
   background-color: #fff;
