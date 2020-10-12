@@ -117,7 +117,8 @@ li a:hover {
   padding-top: 30px;
 }
 
-#sort {
+label::after {
+  content: "";
   display: block;
 }
 
