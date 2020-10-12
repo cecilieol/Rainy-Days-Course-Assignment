@@ -25,6 +25,10 @@ p {
   font-size: 18px;
 }
 
+.topheader {
+  display: inline;
+}
+
 .logo {
   width: 100px;
 }
