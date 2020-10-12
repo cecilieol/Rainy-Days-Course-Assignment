@@ -26,6 +26,7 @@ p {
 }
 
 .topheader {
+  content: "";
   display: inline;
 }
 
