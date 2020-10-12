@@ -106,6 +106,17 @@ li a:hover {
   padding: 5px;
 }
 
+.sidenav {
+  width: 250px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
 footer {
   background-color: #0a3641;
   padding: 20px;
