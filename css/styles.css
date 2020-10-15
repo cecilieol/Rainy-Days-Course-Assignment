@@ -124,7 +124,7 @@ label::after {
 .jacket-grid {
   display: grid;
   grid-template-columns: repeat(3, 250px);
-  grid-template-rows: repeat(4, 250px);
+  grid-template-rows: repeat(3, 250px);
   column-gap: 100px;
   row-gap: 100px;
   justify-content: end;
