@@ -121,13 +121,13 @@ label::after {
   display: block;
 }
 
-.row {
+.row2 {
   display: flex;
   position: left;
   margin-right: 45px;
 }
 
-.column {
+.column2 {
   flex: 25%;
   padding: 5px;
 }
