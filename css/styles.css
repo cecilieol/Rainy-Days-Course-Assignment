@@ -128,7 +128,7 @@ label::after {
   grid-gap: 10px;
   min-height: 250px;
   margin-right: 45px;
-  position: right;
+  float: right;
 }
 
 .column2 {
