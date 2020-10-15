@@ -122,13 +122,16 @@ label::after {
 }
 
 .row2 {
-  display: flex;
-  position: left;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  grid-gap: 10px;
+  min-height: 250px;
   margin-right: 45px;
+  position: left;
 }
 
 .column2 {
-  flex: 25%;
   padding: 5px;
 }
 
