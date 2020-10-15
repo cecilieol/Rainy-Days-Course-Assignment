@@ -138,3 +138,7 @@ footer {
   padding: 5px;
   line-height: 25%;
 }
+
+.copyright {
+  text-align: center;
+}
