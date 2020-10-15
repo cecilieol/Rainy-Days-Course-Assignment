@@ -121,6 +121,17 @@ label::after {
   display: block;
 }
 
+.row {
+  display: flex;
+  position: left;
+  margin-right: 45px;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
 footer {
   background-color: #0a3641;
   padding: 20px;
