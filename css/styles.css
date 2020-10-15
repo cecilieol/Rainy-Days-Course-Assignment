@@ -126,38 +126,14 @@ footer {
   padding: 20px;
 }
 
-.help {
+.footer-row {
+  display: flex;
+  margin-left: 45px;
   background-color: #0a3641;
   color: #fff;
-  float: left;
-  line-height: 70%;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
-.info {
-  background-color: #0a3641;
-  color: #fff;
-  float: left;
-  line-height: 70%;
-  padding-right: 100px;
-  padding-right: 100px;
-}
-
-.socials {
-  background-color: #0a3641;
-  color: #fff;
-  float: right;
-  line-height: 70%;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.products {
-  background-color: #0a3641;
-  color: #fff;
-  float: right;
-  line-height: 70%;
-  padding-left: 100px;
-  padding-right: 100px;
+.footer-column {
+  flex: 25%;
+  padding: 5px;
 }
