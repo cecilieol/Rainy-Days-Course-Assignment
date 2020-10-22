@@ -1,119 +1,136 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rainy Days - Checkout</title>
+    <title>Rainy Days - All Jackets</title>
     <meta
       name="description"
       content="Rainy Days online store. Durable jackets for exploring the great outdoors."
     />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://use.typekit.net/vkj7nau.css" />
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <img src="images/visuals/logo.png" />
-      <img src="images/Icons/magnifiying-glass.png" />
-      <input type="text" name="search" />
-      <img src="images/Icons/heart.png" />
-      <img src="images/Icons/user.png" />
-      <img src="images/Icons/shopping-cart.png" />
-      <p>Wishlist</p>
-      <p>My profile</p>
-      <p>Shopping cart</p>
-      <nav>
-        <ul>
-          <li><a href="alljackets.html">All Jackets</a></li>
-          <li><a href="alljackets.html">Women's Jackets</a></li>
-          <li><a href="alljackets.html">Men's Jackets</a></li>
-          <li><a href="alljackets.html">Unisex Jackets</a></li>
-          <li><a href="alljackets.html">News</a></li>
-          <li><a href="alljackets.html">Sale</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h3>Your information</h3>
-      <fieldset>
-        <p>First and middle name</p>
-        <input type="text" name="firstname" />
-        <p>Last name</p>
-        <input type="text" name="lastname" />
-        <p>Address</p>
-        <input type="text" name="address" />
-        <p>Zip code</p>
-        <input type="text" name="zip" />
-        <p>County</p>
-        <input type="text" name="county" />
-        <p>E-mail address</p>
-        <input type="text" name="email" />
-        <p>Phone number</p>
-        <input type="text" name="tlf" />
-      </fieldset>
+    <div id="content">
+      <header>
+        <div id="heading">
+          <section class="logo">
+            <a href="index.html"><img src="images/visuals/logo.png" /></a>
+          </section>
 
-      <h3>Delivery method</h3>
-      <fieldset>
-        <input
-          type="radio"
-          name="delivery"
-          value="Express"
-          id="Express"
-        /><label for="Express">Express home delivery (1-2 days)</label>
-        <input
-          type="radio"
-          name="delivery"
-          value="Standard"
-          id="Standard"
-        /><label for="Standard">Standard home delivery (3-4 days)</label>
-        <input type="radio" name="delivery" value="Pickup" id="Pickup" /><label
-          for="Pickup"
-          >Pick up point (3-4 days)</label
-        >
-      </fieldset>
+          <section class="search">
+            <input type="text" name="search" />
+          </section>
 
-      <h3>Payment</h3>
-      <fieldset>
-        <input type="radio" name="payment" value="credit" id="credit" /><label
-          for="credit"
-          >Credit/debit card</label
-        >
-        <p>Card number</p>
-        <input type="text" name="cardnumber" />
-        <p>Expiration date</p>
-        <input type="text" name="exdate" />
-        <p>CVC</p>
-        <input type="text" name="cvc" />
-        <input type="radio" name="payment" value="invoice" id="invoice" /><label
-          for="invoice"
-          >Invoice - pay in 14 days</label
-        >
-        <input type="radio" name="payment" value="partial" id="partial" /><label
-          for="partial"
-          >Partial payment - from $10 per month</label
-        >
-        <input type="radio" name="payment" value="paypal" id="paypal" /><label
-          for="paypal"
-          >Paypal</label
-        >
-      </fieldset>
+          <section class="headerlinks">
+            <a href="wishlist.html">Wishlist</a>
+            <a href="myprofile.html">My profile</a>
+            <a href="checkout.html">Shopping cart</a>
+          </section>
+        </div>
 
-      <br />
-      <fieldset>
-        <input type="checkbox" name="terms" value="terms" id="terms" /><label
-          for="terms"
-          >I accept the terms and agreements of this purchase</label
-        >
-        <input
-          type="checkbox"
-          name="newsletter"
-          value="newsletter"
-          id="newsletter"
-        /><label for="newsletter"
-          >Sign me up to the Rainy Days newsletter</label
-        >
-      </fieldset>
+        <nav>
+          <ul>
+            <li><a href="alljackets.html">All Jackets</a></li>
+            <li><a href="alljackets.html">Women's Jackets</a></li>
+            <li><a href="alljackets.html">Men's Jackets</a></li>
+            <li><a href="alljackets.html">Unisex Jackets</a></li>
+            <li><a href="alljackets.html">News</a></li>
+            <li><a href="alljackets.html">Sale</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h3>Your information</h3>
+        <fieldset>
+          <p>First and middle name</p>
+          <input type="text" name="firstname" />
+          <p>Last name</p>
+          <input type="text" name="lastname" />
+          <p>Address</p>
+          <input type="text" name="address" />
+          <p>Zip code</p>
+          <input type="text" name="zip" />
+          <p>County</p>
+          <input type="text" name="county" />
+          <p>E-mail address</p>
+          <input type="text" name="email" />
+          <p>Phone number</p>
+          <input type="text" name="tlf" />
+        </fieldset>
 
-      <input type="submit" value="Complete purchase" />
-    </main>
+        <h3>Delivery method</h3>
+        <fieldset>
+          <input
+            type="radio"
+            name="delivery"
+            value="Express"
+            id="Express"
+          /><label for="Express">Express home delivery (1-2 days)</label>
+          <input
+            type="radio"
+            name="delivery"
+            value="Standard"
+            id="Standard"
+          /><label for="Standard">Standard home delivery (3-4 days)</label>
+          <input
+            type="radio"
+            name="delivery"
+            value="Pickup"
+            id="Pickup"
+          /><label for="Pickup">Pick up point (3-4 days)</label>
+        </fieldset>
+
+        <h3>Payment</h3>
+        <fieldset>
+          <input type="radio" name="payment" value="credit" id="credit" /><label
+            for="credit"
+            >Credit/debit card</label
+          >
+          <p>Card number</p>
+          <input type="text" name="cardnumber" />
+          <p>Expiration date</p>
+          <input type="text" name="exdate" />
+          <p>CVC</p>
+          <input type="text" name="cvc" />
+          <input
+            type="radio"
+            name="payment"
+            value="invoice"
+            id="invoice"
+          /><label for="invoice">Invoice - pay in 14 days</label>
+          <input
+            type="radio"
+            name="payment"
+            value="partial"
+            id="partial"
+          /><label for="partial">Partial payment - from $10 per month</label>
+          <input type="radio" name="payment" value="paypal" id="paypal" /><label
+            for="paypal"
+            >Paypal</label
+          >
+        </fieldset>
+
+        <br />
+        <fieldset>
+          <input type="checkbox" name="terms" value="terms" id="terms" /><label
+            for="terms"
+            >I accept the terms and agreements of this purchase</label
+          >
+          <input
+            type="checkbox"
+            name="newsletter"
+            value="newsletter"
+            id="newsletter"
+          /><label for="newsletter"
+            >Sign me up to the Rainy Days newsletter</label
+          >
+        </fieldset>
+
+        <input type="submit" value="Complete purchase" />
+      </main>
+    </div>
     <footer>
       <section>
         <h3>Help</h3>
