@@ -79,6 +79,8 @@ main {
   padding-top: 100px;
 }
 
+/* Index */
+
 .sale {
   background: url("../images/Visuals/orange-forest.jpg");
   color: #fff;
@@ -123,6 +125,8 @@ main {
   padding: 5px;
 }
 
+/* All Jackets*/
+
 .sidenav {
   width: 250px;
   position: relative;
@@ -151,6 +155,29 @@ label::after {
 .jacket {
   margin: 10px;
 }
+
+/* Single Jacket*/
+
+.jacket-view {
+  float: left;
+}
+
+.jacket-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.jacket-specs {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 100px;
+}
+
+.about-jacket {
+  padding-right: 25px;
+}
+
+/* Footer */
 
 footer {
   width: 100%;
