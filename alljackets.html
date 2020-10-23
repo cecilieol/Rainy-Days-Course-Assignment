@@ -45,42 +45,50 @@
         <h2>All Jackets</h2>
 
         <h3>Sort by</h3>
-        <input type="radio" name="sorting" value="Latest news" id="Latest news" />
-        <label for="Latest news">Latest news</label>
-        <input type="radio" name="sorting" value="Rating" id="Rating" />
-        <label for="Rating">Rating</label>
-        <input type="radio" name="sorting" value="Price: low to high" id="Price: low to high" />
-        <label for="Price: low to high">Price: low to high</label>
-        <input type="radio" name="sorting" value="Price: high to low" id="Price: high to low" />
-        <label for="Price: high to low">Price: high to low</label>
-        <input type="radio" name="sorting" value="A-Z" id="A-Z" />
-        <label for="A-Z">A-Z</label>
+        <div class="sorting">
+          <input type="radio" name="sorting" value="Latest news" id="Latest news" />
+          <label for="Latest news">Latest news</label>
+          <input type="radio" name="sorting" value="Rating" id="Rating" />
+          <label for="Rating">Rating</label>
+          <input type="radio" name="sorting" value="Price: low to high" id="Price: low to high" />
+          <label for="Price: low to high">Price: low to high</label>
+          <input type="radio" name="sorting" value="Price: high to low" id="Price: high to low" />
+          <label for="Price: high to low">Price: high to low</label>
+          <input type="radio" name="sorting" value="A-Z" id="A-Z" />
+          <label for="A-Z">A-Z</label>
+        </div>
 
         <h3>Filter by</h3>
 
         <h3>Colour</h3>
-        <input type="checkbox" name="yellow" value="yellow" id="yellow" /><label for="yellow">yellow</label>
-        <input type="checkbox" name="purple" value="purple" id="purple" /><label for="purple">purple</label>
-        <input type="checkbox" name="red" value="red" id="red" /><label for="red">red</label>
-        <input type="checkbox" name="green" value="green" id="green" /><label for="green">green</label>
-        <input type="checkbox" name="blue" value="blue" id="blue" /><label for="blue">blue</label>
-        <input type="checkbox" name="black" value="black" id="black" /><label for="black">black</label>
+        <div class="filter-colour">
+          <input type="checkbox" name="yellow" value="yellow" id="yellow" /><label for="yellow">yellow</label>
+          <input type="checkbox" name="purple" value="purple" id="purple" /><label for="purple">purple</label>
+          <input type="checkbox" name="red" value="red" id="red" /><label for="red">red</label>
+          <input type="checkbox" name="green" value="green" id="green" /><label for="green">green</label>
+          <input type="checkbox" name="blue" value="blue" id="blue" /><label for="blue">blue</label>
+          <input type="checkbox" name="black" value="black" id="black" /><label for="black">black</label>
+        </div>
 
         <h3>Size</h3>
-        <input type="checkbox" name="XS" value="XS" id="XS" /><label for="XS">XS</label>
-        <input type="checkbox" name="S" value="S" id="S" /><label for="S">S</label>
-        <input type="checkbox" name="M" value="M" id="M" /><label for="M">M</label>
-        <input type="checkbox" name="L" value="L" id="L" /><label for="L">L</label>
-        <input type="checkbox" name="XL" value="XL" id="XL" /><label for="XL">XL</label>
-        <input type="checkbox" name="XXL" value="XXL" id="XXL" /><label for="XXL">XXL</label>
+        <div class="filter-size">
+          <input type="checkbox" name="XS" value="XS" id="XS" /><label for="XS">XS</label>
+          <input type="checkbox" name="S" value="S" id="S" /><label for="S">S</label>
+          <input type="checkbox" name="M" value="M" id="M" /><label for="M">M</label>
+          <input type="checkbox" name="L" value="L" id="L" /><label for="L">L</label>
+          <input type="checkbox" name="XL" value="XL" id="XL" /><label for="XL">XL</label>
+          <input type="checkbox" name="XXL" value="XXL" id="XXL" /><label for="XXL">XXL</label>
+        </div>
 
         <h3>Price</h3>
-        <input type="checkbox" name="$ -19" value="$ -19" id="$ -19" /><label for="$ -19">$ -19</label>
-        <input type="checkbox" name="$ 20-39" value="$ 20-39" id="$ 20-39" /><label for="$ 20-39">$ 20-39</label>
-        <input type="checkbox" name="$ 40-59" value="$ 40-59" id="$ 40-59" /><label for="$ 40-59">$ 40-59</label>
-        <input type="checkbox" name="$ 60-79" value="$ 60-79" id="$ 60-79" /><label for="$ 60-79">$ 60-79</label>
-        <input type="checkbox" name="$ 80-99" value="$ 80-99" id="$ 80-99" /><label for="$ 80-99">$ 80-99</label>
-        <input type="checkbox" name="$ 100+" value="$ 100+" id="$ 100+" /><label for="$ 100+">$ 100+</label>
+        <div class="filter-price">
+          <input type="checkbox" name="$ -19" value="$ -19" id="$ -19" /><label for="$ -19">$ -19</label>
+          <input type="checkbox" name="$ 20-39" value="$ 20-39" id="$ 20-39" /><label for="$ 20-39">$ 20-39</label>
+          <input type="checkbox" name="$ 40-59" value="$ 40-59" id="$ 40-59" /><label for="$ 40-59">$ 40-59</label>
+          <input type="checkbox" name="$ 60-79" value="$ 60-79" id="$ 60-79" /><label for="$ 60-79">$ 60-79</label>
+          <input type="checkbox" name="$ 80-99" value="$ 80-99" id="$ 80-99" /><label for="$ 80-99">$ 80-99</label>
+          <input type="checkbox" name="$ 100+" value="$ 100+" id="$ 100+" /><label for="$ 100+">$ 100+</label>
+        </div>
       </div>
 
       <div class="jacket-grid">
@@ -120,7 +128,7 @@
           <p>$100</p>
         </div>
 
-        <div>
+        <div class="jacket">
           <img src="images/Visuals/red-jacket-boy-front.jpg" alt="Jordan" width="250px" />
           <p>The Jordan Jacket</p>
           <p>$100</p>

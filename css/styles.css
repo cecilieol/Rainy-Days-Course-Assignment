@@ -162,19 +162,38 @@ label::after {
   float: left;
 }
 
+.jacket-mini-view {
+  float: left;
+  display: grid;
+}
+
+.jacket-options {
+  display: inline-block;
+  float: right;
+  margin-right: 200px;
+}
+
+.choose-colour {
+  display: inline-flex;
+}
+
+.choose-size {
+  display: inline-flex;
+}
+
 .jacket-info {
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
 }
 
 .jacket-specs {
   width: 100%;
-  padding-left: 25px;
+  line-height: 50%;
   padding-right: 100px;
 }
 
 .about-jacket {
-  padding-right: 25px;
+  padding-left: 25px;
 }
 
 /* Footer */

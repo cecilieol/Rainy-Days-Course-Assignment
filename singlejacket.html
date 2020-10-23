@@ -42,7 +42,12 @@
     </header>
     <main>
       <div class="jacket-view">
-        <img src="images/Visuals/red-jacket-boy-front.jpg" />
+        <div class="jacket-mini-view">
+          <img src="images/Visuals/mini-red-jacket.jpg" style="margin: 0px 27px 27px 0px;" />
+          <img src="images/Visuals/mini-red-jacket-2.jpg" style="margin: 0px 27px 27px 0px;" />
+          <img src="images/Visuals/mini-red-jacket-3.jpg" style="margin: 0px 27px 27px 0px;" />
+        </div>
+        <img src="images/Visuals/main-red-jacket.jpg" />
       </div>
 
       <div class="jacket-options">
@@ -50,22 +55,24 @@
         <h2>$100</h2>
 
         <h3>Choose colour</h3>
-
-        <input type="radio" name="colour" value="yellow" id="yellow" /><label for="yellow">yellow</label>
-        <input type="radio" name="colour" value="purple" id="purple" /><label for="purple">purple</label>
-        <input type="radio" name="colour" value="red" id="red" /><label for="red">red</label>
-        <input type="radio" name="colour" value="green" id="green" /><label for="green">green</label>
-        <input type="radio" name="colour" value="blue" id="blue" /><label for="blue">blue</label>
-        <input type="radio" name="colour" value="black" id="black" /><label for="black">black</label>
+        <div class="choose-colour">
+          <input type="radio" name="colour" value="yellow" id="yellow" /><label for="yellow">yellow</label>
+          <input type="radio" name="colour" value="purple" id="purple" /><label for="purple">purple</label>
+          <input type="radio" name="colour" value="red" id="red" /><label for="red">red</label>
+          <input type="radio" name="colour" value="green" id="green" /><label for="green">green</label>
+          <input type="radio" name="colour" value="blue" id="blue" /><label for="blue">blue</label>
+          <input type="radio" name="colour" value="black" id="black" /><label for="black">black</label>
+        </div>
 
         <h3>Choose size</h3>
-
-        <input type="radio" name="size" value="XS" id="XS" /><label for="XS">XS</label>
-        <input type="radio" name="size" value="S" id="S" /><label for="S">S</label>
-        <input type="radio" name="size" value="M" id="M" /><label for="M">M</label>
-        <input type="radio" name="size" value="L" id="L" /><label for="L">L</label>
-        <input type="radio" name="size" value="XL" id="XL" /><label for="XL">XL</label>
-        <input type="radio" name="size" value="XXL" id="XXL" /><label for="XXL">XXL</label>
+        <div class="choose-size">
+          <input type="radio" name="size" value="XS" id="XS" /><label for="XS">XS</label>
+          <input type="radio" name="size" value="S" id="S" /><label for="S">S</label>
+          <input type="radio" name="size" value="M" id="M" /><label for="M">M</label>
+          <input type="radio" name="size" value="L" id="L" /><label for="L">L</label>
+          <input type="radio" name="size" value="XL" id="XL" /><label for="XL">XL</label>
+          <input type="radio" name="size" value="XXL" id="XXL" /><label for="XXL">XXL</label>
+        </div>
 
         <button>Add to cart</button>
       </div>
@@ -73,6 +80,7 @@
       <div class="jacket-info">
         <section class="jacket-specs">
           <h3>Specifications</h3>
+          <br>
           <p>Weight: 123 grams</p>
           <p>Material: Polyester</p>
           <p>Pockets: 4</p>
