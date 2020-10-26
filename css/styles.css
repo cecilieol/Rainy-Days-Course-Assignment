@@ -79,6 +79,13 @@ main {
   padding-top: 100px;
 }
 
+fieldset {
+  background-color: #F2F2F2;
+  border: none;
+  line-height: 100%;
+  margin-right: 50px;
+}
+
 /* Index */
 
 .sale {
@@ -188,12 +195,23 @@ label::after {
 
 .jacket-specs {
   width: 100%;
-  line-height: 50%;
   padding-right: 100px;
 }
 
 .about-jacket {
   padding-left: 25px;
+}
+
+.customer-section {
+  display: inline-flex;
+}
+
+.customer-reviews {
+  width: 100%;
+}
+
+.customer-photos {
+
 }
 
 /* Footer */
