@@ -1,167 +1,194 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Rainy Days - All Jackets</title>
-    <meta
-      name="description"
-      content="Rainy Days online store. Durable jackets for exploring the great outdoors."
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://use.typekit.net/vkj7nau.css" />
-    <link href="css/styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="content">
-      <header>
-        <div id="heading">
-          <section class="logo">
-            <a href="index.html"><img src="images/visuals/logo.png" /></a>
-          </section>
 
-          <section class="search">
-            <input type="text" name="search" />
-          </section>
+<head>
+  <title>Rainy Days - All Jackets</title>
+  <meta name="description" content="Rainy Days online store. Durable jackets for exploring the great outdoors." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://use.typekit.net/vkj7nau.css" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
 
-          <section class="headerlinks">
-            <a href="wishlist.html">Wishlist</a>
-            <a href="myprofile.html">My profile</a>
-            <a href="checkout.html">Shopping cart</a>
-          </section>
+<body>
+  <div id="content">
+    <header>
+      <div id="heading">
+        <section class="logo">
+          <a href="index.html"><img src="images/visuals/logo.png" /></a>
+        </section>
+
+        <section class="search">
+          <input type="text" name="search" />
+        </section>
+
+        <section class="headerlinks">
+          <a href="wishlist.html">Wishlist</a>
+          <a href="myprofile.html">My profile</a>
+          <a href="checkout.html">Shopping cart</a>
+        </section>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="alljackets.html">All Jackets</a></li>
+          <li><a href="alljackets.html">Women's Jackets</a></li>
+          <li><a href="alljackets.html">Men's Jackets</a></li>
+          <li><a href="alljackets.html">Unisex Jackets</a></li>
+          <li><a href="alljackets.html">News</a></li>
+          <li><a href="alljackets.html">Sale</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <div class="checkout-right">
+        <h3>Order summary</h3>
+        <fieldset>
+          <h3>Subtotal: $200</h3>
+          <h3>Discount: $0</h3>
+          <h3>Delivery: $0</h3>
+          <hr>
+          <h3>Total: $200</h3>
+        </fieldset>
+
+        <h3>Promotion code</h3>
+        <fieldset>
+          <input type="text" name="promotion-code" />
+          <button>Add</button>
+        </fieldset>
+      </div>
+
+      <div class="checkout-left">
+        <h3>Your shopping cart</h3>
+        <div class="cart">
+          <fieldset>
+            <div class="cart-content">
+              <img src="images/Visuals/red-jacket-boy-front.jpg" />
+              <div class="cart-info">
+                <h3>The Jordan Jacket</h3>
+                <br>
+                <h4>Colour: Red</h4>
+                <h4>Size: L</h4>
+                <br>
+                <h4>$100</h4>
+              </div>
+            </div>
+            <hr>
+            <div class="cart-content">
+              <img src="images/Visuals/black-jacket.jpg" />
+              <div class="cart-info">
+                <h3>The Morgan Jacket</h3>
+                <br>
+                <h4>Colour: Black</h4>
+                <h4>Size: L</h4>
+                <br>
+                <h4>$100</h4>
+              </div>
+            </div>
+          </fieldset>
         </div>
 
-        <nav>
-          <ul>
-            <li><a href="alljackets.html">All Jackets</a></li>
-            <li><a href="alljackets.html">Women's Jackets</a></li>
-            <li><a href="alljackets.html">Men's Jackets</a></li>
-            <li><a href="alljackets.html">Unisex Jackets</a></li>
-            <li><a href="alljackets.html">News</a></li>
-            <li><a href="alljackets.html">Sale</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <h3>Your information</h3>
-        <fieldset>
-          <p>First and middle name</p>
-          <input type="text" name="firstname" />
-          <p>Last name</p>
-          <input type="text" name="lastname" />
-          <p>Address</p>
-          <input type="text" name="address" />
-          <p>Zip code</p>
-          <input type="text" name="zip" />
-          <p>County</p>
-          <input type="text" name="county" />
-          <p>E-mail address</p>
-          <input type="text" name="email" />
-          <p>Phone number</p>
-          <input type="text" name="tlf" />
-        </fieldset>
 
-        <h3>Delivery method</h3>
-        <fieldset>
-          <input
-            type="radio"
-            name="delivery"
-            value="Express"
-            id="Express"
-          /><label for="Express">Express home delivery (1-2 days)</label>
-          <input
-            type="radio"
-            name="delivery"
-            value="Standard"
-            id="Standard"
-          /><label for="Standard">Standard home delivery (3-4 days)</label>
-          <input
-            type="radio"
-            name="delivery"
-            value="Pickup"
-            id="Pickup"
-          /><label for="Pickup">Pick up point (3-4 days)</label>
-        </fieldset>
-
-        <h3>Payment</h3>
-        <fieldset>
-          <input type="radio" name="payment" value="credit" id="credit" /><label
-            for="credit"
-            >Credit/debit card</label
-          >
-          <p>Card number</p>
-          <input type="text" name="cardnumber" />
-          <p>Expiration date</p>
-          <input type="text" name="exdate" />
-          <p>CVC</p>
-          <input type="text" name="cvc" />
-          <input
-            type="radio"
-            name="payment"
-            value="invoice"
-            id="invoice"
-          /><label for="invoice">Invoice - pay in 14 days</label>
-          <input
-            type="radio"
-            name="payment"
-            value="partial"
-            id="partial"
-          /><label for="partial">Partial payment - from $10 per month</label>
-          <input type="radio" name="payment" value="paypal" id="paypal" /><label
-            for="paypal"
-            >Paypal</label
-          >
-        </fieldset>
+        <div class="personal-info">
+          <h3>Your information</h3>
+          <fieldset>
+            <p>First and middle name</p>
+            <input type="text" name="firstname" />
+            <p>Last name</p>
+            <input type="text" name="lastname" />
+            <p>Address</p>
+            <input type="text" name="address" />
+            <p>Zip code</p>
+            <input type="text" name="zip" />
+            <p>County</p>
+            <input type="text" name="county" />
+            <p>E-mail address</p>
+            <input type="text" name="email" />
+            <p>Phone number</p>
+            <input type="text" name="tlf" />
+          </fieldset>
+        </div>
+        <div class="delivery">
+          <h3>Delivery method</h3>
+          <fieldset>
+            <input type="radio" name="delivery" value="Express" id="Express" /><label for="Express">Express home
+              delivery
+              (1-2 days)</label>
+            <input type="radio" name="delivery" value="Standard" id="Standard" /><label for="Standard">Standard home
+              delivery (3-4 days)</label>
+            <input type="radio" name="delivery" value="Pickup" id="Pickup" /><label for="Pickup">Pick up point (3-4
+              days)</label>
+          </fieldset>
+        </div>
+        <div class="payment">
+          <h3>Payment</h3>
+          <fieldset>
+            <input type="radio" name="payment" value="credit" id="credit" /><label for="credit">Credit/debit
+              card</label>
+            <p>Card number</p>
+            <input type="text" name="cardnumber" />
+            <p>Expiration date</p>
+            <input type="text" name="exdate" />
+            <p>CVC</p>
+            <input type="text" name="cvc" />
+            <input type="radio" name="payment" value="invoice" id="invoice" /><label for="invoice">Invoice - pay in 14
+              days</label>
+            <input type="radio" name="payment" value="partial" id="partial" /><label for="partial">Partial payment -
+              from
+              $10 per month</label>
+            <input type="radio" name="payment" value="paypal" id="paypal" /><label for="paypal">Paypal</label>
+          </fieldset>
+        </div>
 
         <br />
-        <fieldset>
-          <input type="checkbox" name="terms" value="terms" id="terms" /><label
-            for="terms"
-            >I accept the terms and agreements of this purchase</label
-          >
-          <input
-            type="checkbox"
-            name="newsletter"
-            value="newsletter"
-            id="newsletter"
-          /><label for="newsletter"
-            >Sign me up to the Rainy Days newsletter</label
-          >
-        </fieldset>
+        <div class="accept">
+          <fieldset>
+            <input type="checkbox" name="terms" value="terms" id="terms" /><label for="terms">I accept the terms and
+              agreements of this purchase</label>
+            <input type="checkbox" name="newsletter" value="newsletter" id="newsletter" /><label for="newsletter">Sign
+              me
+              up
+              to the Rainy Days newsletter</label>
+          </fieldset>
+        </div>
+      </div>
 
-        <input type="submit" value="Complete purchase" />
-      </main>
-    </div>
-    <footer>
-      <section>
-        <h3>Help</h3>
-        <p><a href="contact.html">Contact</a></p>
-        <p>FAQ</p>
-        <p>Terms and conditions</p>
-        <p>Privacy</p>
-        <p>Delivery</p>
-        <p>Payment</p>
-        <p>Return policies</p>
-      </section>
-      <section>
-        <h3>Information</h3>
-        <p><a href="about.html">About Rainy Days</a></p>
-        <p>Press</p>
-        <p>Sustainability</p>
-        <p>Affiliate</p>
-      </section>
-      <section>
-        <h3>Our products</h3>
-        <p><a href="alljackets.html">All Jackets</a></p>
-        <p><a href="alljackets.html">Women's Jackets</a></p>
-        <p><a href="alljackets.html">Men's Jackets</a></p>
-        <p><a href="alljackets.html">Unisex Jackets</a></p>
-      </section>
-      <section>
-        <h3>Follow us</h3>
-        <p>Facebook</p>
-        <p>Instagram</p>
-        <p>YouTube</p>
-      </section>
-    </footer>
-  </body>
+      <input type="submit" value="Complete purchase" />
+    </main>
+  </div>
+  <footer>
+    <section>
+      <h3>Help</h3>
+      <p><a href="contact.html">Contact</a></p>
+      <p>FAQ</p>
+      <p>Terms and conditions</p>
+      <p>Privacy</p>
+      <p>Delivery</p>
+      <p>Payment</p>
+      <p>Return policies</p>
+    </section>
+    <section>
+      <h3>Information</h3>
+      <p><a href="about.html">About Rainy Days</a></p>
+      <p>Press</p>
+      <p>Sustainability</p>
+      <p>Affiliate</p>
+    </section>
+    <section>
+      <h3>Our products</h3>
+      <p><a href="alljackets.html">All Jackets</a></p>
+      <p><a href="alljackets.html">Women's Jackets</a></p>
+      <p><a href="alljackets.html">Men's Jackets</a></p>
+      <p><a href="alljackets.html">Unisex Jackets</a></p>
+    </section>
+    <section>
+      <h3>Follow us</h3>
+      <p>Facebook</p>
+      <p>Instagram</p>
+      <p>YouTube</p>
+    </section>
+  </footer>
+</body>
+
 </html>
