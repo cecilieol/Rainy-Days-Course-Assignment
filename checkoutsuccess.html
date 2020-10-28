@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Rainy Days - Checkout success</title>
-    <meta
-      name="description"
-      content="Rainy Days online store. Durable jackets for exploring the great outdoors."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/styles.css" rel="stylesheet" />
-  </head>
-  <body>
+
+<head>
+  <title>Rainy Days - Thank you for your order!</title>
+  <meta name="description" content="Rainy Days online store. View your order details." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://use.typekit.net/vkj7nau.css" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="content">
     <header>
-      <img src="images/visuals/logo.png" />
-      <img src="images/Icons/magnifiying-glass.png" />
-      <input type="text" name="search" />
-      <img src="images/Icons/heart.png" />
-      <img src="images/Icons/user.png" />
-      <img src="images/Icons/shopping-cart.png" />
-      <p>Wishlist</p>
-      <p>My profile</p>
-      <p>Shopping cart</p>
+      <div id="heading">
+        <section class="logo">
+          <img src="images/visuals/logo.png" />
+        </section>
+
+        <section class="search">
+          <input type="text" name="search" />
+        </section>
+
+        <section class="headerlinks">
+          <a href="wishlist.html">Wishlist</a>
+          <a href="myprofile.html">My profile</a>
+          <a href="checkout.html">Shopping cart</a>
+        </section>
+      </div>
+
       <nav>
         <ul>
           <li><a href="alljackets.html">All Jackets</a></li>
@@ -31,9 +40,77 @@
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer>
+
+    <main>
+      <h1>Thank you for your order!</h1>
+
+      <div class="checkout-success-right">
+        <div class="newsletter-after">
+          <h3>Don't forget to sign up to our newsletter for news and personalized offers</h3>
+          <input type="text" name="mail" />
+          <button>Click here to sign up</button>
+        </div>
+
+        <div class="read-about">
+          <p>When buying products from Rainy Days, you are supporting the environment.</p>
+          <p>Read more about our sustainable production and the causes we support here.</p>
+        </div>
+      </div>
+
+      <fieldset class="order-summary">
+        <h2>Order summary</h2>
+        <p>1 x The Jordan Jacket</p>
+        <p>Colour: Red</p>
+        <p>Size: L</p>
+        <br>
+        <p>1 x The Morgan Jacket</p>
+        <p>Colour: Black</p>
+        <p>Size: L</p>
+        <br>
+        <p>Order number: 1234567890</p>
+        <br>
+        <p>Shipping address: Street 123, 4567 Town</p>
+        <br>
+        <p>E-mail: mailmail@mail.com</p>
+        <p>Phone number: 12 34 56 78 </p>
+      </fieldset>
+
       <section>
+        <h2>Did you forget something?</h2>
+      </section>
+
+      <div class="row">
+        <div class="column">
+          <img src="images/Visuals/red-jacket-boy-front.jpg" alt="Jordan" width="250px" />
+          <p>The Jordan Jacket</p>
+          <p>$100</p>
+        </div>
+
+        <div class="column">
+          <img src="images/Visuals/yellow-jacket.jpg" alt="Taylor" width="250px" />
+          <p>The Taylor Jacket</p>
+          <p>$100</p>
+        </div>
+
+        <div class="column">
+          <img src="images/Visuals/black-jacket.jpg" alt="Morgan" width="250px" />
+          <p>The Morgan Jacket</p>
+          <p>$100</p>
+        </div>
+
+        <div class="column">
+          <img src="images/Visuals/red-jacket-duffelbag.jpg" alt="Jessie" width="250px" />
+          <p>The Jessie Jacket</p>
+          <p>$100</p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <footer>
+    <section class="footer-row">
+      <div class="footer-column">
         <h3>Help</h3>
         <p><a href="contact.html">Contact</a></p>
         <p>FAQ</p>
@@ -42,27 +119,32 @@
         <p>Delivery</p>
         <p>Payment</p>
         <p>Return policies</p>
-      </section>
-      <section>
+      </div>
+      <div class="footer-column">
         <h3>Information</h3>
         <p><a href="about.html">About Rainy Days</a></p>
         <p>Press</p>
         <p>Sustainability</p>
         <p>Affiliate</p>
-      </section>
-      <section>
+      </div>
+      <div class="footer-column">
         <h3>Our products</h3>
         <p><a href="alljackets.html">All Jackets</a></p>
         <p><a href="alljackets.html">Women's Jackets</a></p>
         <p><a href="alljackets.html">Men's Jackets</a></p>
         <p><a href="alljackets.html">Unisex Jackets</a></p>
-      </section>
-      <section>
+      </div>
+      <div class="footer-column">
         <h3>Follow us</h3>
         <p>Facebook</p>
         <p>Instagram</p>
         <p>YouTube</p>
-      </section>
-    </footer>
-  </body>
+      </div>
+    </section>
+    <div class="copyright">
+      <span>© Rainy Days 2020</span>
+    </div>
+  </footer>
+</body>
+
 </html>
