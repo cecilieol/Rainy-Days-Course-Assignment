@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <title>Rainy Days - All Jackets</title>
-  <meta name="description" content="Rainy Days online store. Durable jackets for exploring the great outdoors." />
+  <title>Rainy Days - The Jordan Jacket</title>
+  <meta name="description" content="Rainy Days online store. Learn more about our bestseller The Jordan Jacket here." />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://use.typekit.net/vkj7nau.css" />
@@ -41,6 +41,12 @@
       </nav>
     </header>
     <main>
+      <div class="breadcrumb">
+        <p><a href="index.html">Home</a></p>
+        <p> / </p>
+        <p><a href="alljackets.html"> All Jackets</a></p>
+        <p> / The Jordan Jacket</p>
+      </div>
       <div class="jacket-view">
         <div class="jacket-mini-view">
           <img src="images/Visuals/mini-red-jacket.jpg" style="margin: 0px 27px 27px 0px;" />
@@ -54,14 +60,20 @@
         <h1>The Jordan Jacket</h1>
         <h2>$100</h2>
 
+        <img src="images/Icons/star fill25.png">
+        <img src="images/Icons/star fill25.png">
+        <img src="images/Icons/star fill25.png">
+        <img src="images/Icons/star fill25.png">
+        <img src="images/Icons/star25.png">
+
         <h3>Choose colour</h3>
         <div class="choose-colour">
-          <input type="radio" name="colour" value="yellow" id="yellow" /><label for="yellow">yellow</label>
-          <input type="radio" name="colour" value="purple" id="purple" /><label for="purple">purple</label>
-          <input type="radio" name="colour" value="red" id="red" /><label for="red">red</label>
-          <input type="radio" name="colour" value="green" id="green" /><label for="green">green</label>
-          <input type="radio" name="colour" value="blue" id="blue" /><label for="blue">blue</label>
-          <input type="radio" name="colour" value="black" id="black" /><label for="black">black</label>
+          <button class="yellow-button"></button>
+          <button class="purple-button"></button>
+          <button class="red-button"></button>
+          <button class="green-button"></button>
+          <button class="blue-button"></button>
+          <button class="black-button"></button>
         </div>
 
         <h3>Choose size</h3>
@@ -74,7 +86,7 @@
           <input type="radio" name="size" value="XXL" id="XXL" /><label for="XXL">XXL</label>
         </div>
 
-        <button>Add to cart</button>
+        <a href="#" class="btn btn-cart" role="button">Add to cart</a>
       </div>
 
       <div class="jacket-info">
@@ -97,6 +109,12 @@
             est, nec commodo ligula congue vel. Suspendisse id luctus eros. Vestibulum id pretium quam, et lobortis mi.
             Nullam mattis posuere ultrices. Etiam auctor elit nec urna efficitur, quis ultrices urna vestibulum.
           </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae magna sapien. Duis dignissim neque ac
+            arcu commodo elementum. Quisque laoreet massa neque, quis rhoncus neque mollis rhoncus. Etiam a dictum quam.
+            Nulla maximus euismod sollicitudin. Nunc at turpis fringilla, congue leo at, tempus velit. Sed porta ante
+            est, nec commodo ligula congue vel. Suspendisse id luctus eros. Vestibulum id pretium quam, et lobortis mi.
+            Nullam mattis posuere ultrices. Etiam auctor elit nec urna efficitur, quis ultrices urna vestibulum.
+          </p>
         </section>
       </div>
 
@@ -105,20 +123,87 @@
       <div class="customer-section">
         <div class="customer-reviews">
           <h3>Reviews</h3>
+
+          <div class="star-rating">
+            <div class="5-stars">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+            </div>
+            <div class="4-stars">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+            </div>
+            <div class="3-stars">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+            </div>
+            <div class="2-stars">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+            </div>
+            <div class="1-star">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+            </div>
+          </div>
+
+          <div class="total-rating">
+            <h2>4/5</h2>
+            <img src="images/Icons/star fill30.png">
+          </div>
+
+          <a href="#" class="btn btn-review" role="button">Write a review of this product</a>
+
           <fieldset>
-            <h3>Review title</h3>
+            <div class="review-title">
+              <h3>Review title</h3>
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+            </div>
             <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
               commodo.</p>
           </fieldset>
           <br>
           <fieldset>
-            <h3>Review title</h3>
+            <div class="review-title">
+              <h3>Review title</h3>
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+            </div>
             <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
               commodo.</p>
           </fieldset>
           <br>
           <fieldset>
-            <h3>Review title</h3>
+            <div class="review-title">
+              <h3>Review title</h3>
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+            </div>
             <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
               commodo.</p>
           </fieldset>
