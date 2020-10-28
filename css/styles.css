@@ -12,26 +12,31 @@ body {
 h1 {
   font-family: din-condensed, sans-serif;
   font-size: 50px;
+  color: #0a3641;
 }
 
 h2 {
   font-family: din-condensed, sans-serif;
   font-size: 30px;
+  color: #0a3641;
 }
 
 h3 {
   font-family: din-condensed, sans-serif;
   font-size: 24px;
+  color: #0a3641;
 }
 
 h4 {
   font-family: din-condensed, sans-serif;
   font-size: 18px;
+  color: #0a3641;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  color: #0a3641;
 }
 
 #heading {
@@ -81,7 +86,7 @@ li a:hover {
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 fieldset {
@@ -89,6 +94,15 @@ fieldset {
   border: none;
   line-height: 100%;
   margin-right: 50px;
+}
+
+.breadcrumb {
+  margin-bottom: 40px;
+}
+
+.breadcrumb p {
+  display: inline;
+  font-size: 16px;
 }
 
 /* Index */
@@ -101,20 +115,48 @@ fieldset {
   text-align: center;
   background-position: center;
   background-repeat: no-repeat;
+  line-height: 100%;
+  text-align: center;
+  text-shadow: 3px 3px #000000;
+  padding-top: 50px;
 }
 
 .sale h1 {
   margin-top: 0;
 }
 
+.btn-sale {
+  background-color: #0a3641;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .news {
   background: url("../images/Visuals/yellow-jacket-canoe.jpg");
-  color: #fff;
+  color: #0a3641;
   width: 625px;
   height: 395px;
   float: right;
   background-position: right;
   background-repeat: no-repeat;
+}
+
+.btn-news {
+  background-color: #0a3641;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .newsletter {
@@ -125,6 +167,19 @@ fieldset {
   text-align: center;
   background-position: left;
   background-repeat: no-repeat;
+  text-shadow: 2px 2px #000000;
+}
+
+.btn-newsletter {
+  background-color:#D36900;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .row {
@@ -139,8 +194,50 @@ fieldset {
 
 /* All Jackets*/
 
+.yellow-button {
+  background-color: #FFFF00;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.purple-button {
+  background-color: #9400D3;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.red-button {
+  background-color: #FF0000;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.green-button {
+  background-color: #00FF00;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.blue-button {
+  background-color: #0000ff;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.black-button {
+  background-color: #000;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+}
+
 .sidenav {
-  width: 250px;
+  width: 300px;
   position: relative;
   top: 0;
   left: 0;
@@ -168,6 +265,24 @@ label::after {
   margin: 10px;
 }
 
+.jacketinfo {
+  line-height: 10%;
+}
+
+.jacketinfo-top {
+  display: -webkit-box;
+}
+
+.jacketinfo-top h4 {
+  margin-top: 15px;
+  margin-right: 70px;
+  margin-bottom: 0;
+}
+
+.jacketinfo-icons {
+  margin-top: 5px;
+}
+
 /* Single Jacket*/
 
 .jacket-view {
@@ -182,7 +297,17 @@ label::after {
 .jacket-options {
   display: inline-block;
   float: right;
-  margin-right: 200px;
+  margin-right: 250px;
+}
+
+.jacket-options h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.jacket-options h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .choose-colour {
@@ -191,6 +316,18 @@ label::after {
 
 .choose-size {
   display: inline-flex;
+}
+
+.btn-cart {
+  background-color: #1C744B;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
 }
 
 .jacket-info {
@@ -205,6 +342,7 @@ label::after {
 
 .about-jacket {
   padding-left: 25px;
+  text-align: justify;
 }
 
 .customer-section {
@@ -215,8 +353,46 @@ label::after {
   width: 100%;
 }
 
-.customer-photos {
+.star-rating {
+  float: right;
+  margin-right: 50px;
+}
 
+.total-rating {
+  display: -webkit-box;
+}
+
+.total-rating h2 {
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+.btn-review {
+  background-color: #D36900;
+  border: none;
+  color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  width: 40%;
+}
+
+.review-title {
+  display: -webkit-box;
+  margin-top: 10px;
+}
+
+.review-title h3 {
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.customer-photos {
+  width: 70%;
 }
 
 /* Checkout */
@@ -246,6 +422,78 @@ label::after {
 
 .checkout-left {
   display: grid;
+}
+
+/* Checkout success */
+
+.checkout-success-right {
+  display: inline-grid;
+  float: right;
+}
+
+.newsletter-after {
+  display: block;
+  float: right;
+}
+
+.order-summary {
+  width: 45%;
+  line-height: 60%;
+}
+
+.read-about {
+  background: url(../images/Visuals/green-forest.jpg);
+  color: #fff;
+  width: 550px;
+  height: 227px;
+  float: right;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* Contact */
+
+.submit {
+  float: right;
+  width: 500px;
+  margin-left: 50px;
+}
+
+/* About */
+
+.about-image {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+/* Wishlist */
+
+.wishlist-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.wishlist-column {
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+/* Profile */
+
+.profile-recent {
+  float: right;
+  width: 50%;
+}
+
+.profile-preferences {
+  margin-bottom: 300px;
 }
 
 /* Footer */
