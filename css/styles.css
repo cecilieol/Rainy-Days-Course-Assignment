@@ -123,6 +123,11 @@ fieldset {
 
 .sale h1 {
   margin-top: 0;
+  color: #fff;
+}
+
+.sale h3 {
+  color: #fff;
 }
 
 .btn-sale {
@@ -168,6 +173,10 @@ fieldset {
   background-position: left;
   background-repeat: no-repeat;
   text-shadow: 2px 2px #000000;
+}
+
+.newsletter h2 {
+  color: #fff;
 }
 
 .btn-newsletter {
@@ -237,7 +246,8 @@ fieldset {
 }
 
 .sidenav {
-  width: 300px;
+  width: 250px;
+  margin-right: 50px;
   position: relative;
   top: 0;
   left: 0;
@@ -403,6 +413,19 @@ label::after {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  margin-bottom: 0;
+}
+
+.btn-promo {
+  background-color: #0a3641;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .cart {
@@ -424,11 +447,25 @@ label::after {
   display: grid;
 }
 
+.btn-purchase {
+  background-color: #1C744B;
+  border: none;
+  color: white;
+  padding: 15px 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+}
+
 /* Checkout success */
 
 .checkout-success-right {
   display: inline-grid;
   float: right;
+  margin-right: 50px;
 }
 
 .newsletter-after {
@@ -436,9 +473,27 @@ label::after {
   float: right;
 }
 
+.textbox-newsletter {
+  width: 545px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-newsletter-checkout {
+  background-color:#D36900;
+  border: none;
+  color: white;
+  padding: 15px 203px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
 .order-summary {
   width: 45%;
-  line-height: 60%;
+  line-height: 50%;
 }
 
 .read-about {
@@ -451,12 +506,35 @@ label::after {
   background-repeat: no-repeat;
 }
 
+.read-about h3 {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  text-shadow: 1px 1px #000000;
+}
+
 /* Contact */
+
+.contact-icons {
+  float: left;
+  margin: 10px;
+}
 
 .submit {
   float: right;
   width: 500px;
   margin-left: 50px;
+}
+
+.btn-contact {
+  background-color: #0a3641;
+  border: none;
+  color: white;
+  padding: 15px 225px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 /* About */
@@ -510,12 +588,22 @@ footer {
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 15px;
   color: #fff;
 }
 
 .footer-column {
   padding: 5px;
   line-height: 50%;
+  color: #fff;
+}
+
+.footer-column h3 {
+  color: #fff;
+}
+
+.footer-column p {
+  color: #fff;
 }
 
 .copyright {
