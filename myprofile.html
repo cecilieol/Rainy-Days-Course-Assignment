@@ -24,15 +24,18 @@
 
                 <div>
                     <div class="headerlinks">
-                        <img src="images/Icons/heart40.png" />
+                        <a href="wishlist.html">
+                            <img src="images/Icons/heart40.png" /> </a>
                         <a href="wishlist.html">Wishlist</a>
                     </div>
                     <div class="headerlinks">
-                        <img src="images/Icons/user40.png" />
+                        <a href="myprofile.html">
+                            <img src="images/Icons/user40.png" /></a>
                         <a href="myprofile.html">My profile</a>
                     </div>
                     <div class="headerlinks">
-                        <img src="images/Icons/shopping-cart40.png" />
+                        <a href="checkout.html">
+                            <img src="images/Icons/shopping-cart40.png" /></a>
                         <a href="checkout.html">Shopping cart</a>
                     </div>
                 </div>
@@ -53,49 +56,48 @@
         <main>
             <h1>My profile</h1>
 
-            <div class="profile-recent">
-                <h2>Your recent orders</h2>
-                <fieldset>
-                    <h3>01/11/2020</h3>
-                    <p>The Jordan Jacket</p>
-                    <p>Colour: Red</p>
-                    <p>Size: L</p>
-                    <br>
-                    <p>The Morgan Jacket</p>
-                    <p>Colour: Black</p>
-                    <p>Size: L</p>
-                    <br>
-                    <p>Order number: 1234567890</p>
-                    <br>
-                    <p>Total: $200</p>
-                    <br>
-                    <p>Status: processing</p>
-                </fieldset>
-            </div>
+            <div id="profile">
 
-            <div class="profile-info">
-                <h2>Your information</h2>
-                <fieldset>
-                    <input type="text" name="first" />
-                    <input type="text" name="last" />
-                    <input type="text" name="address" />
-                    <input type="text" name="zip" />
-                    <input type="text" name="county" />
-                    <input type="text" name="mail" />
-                    <input type="text" name="phone" />
-                </fieldset>
-            </div>
-            <div class="profile-preferences">
-                <h2>Your preferences</h2>
-                <fieldset>
-                    <input type="checkbox" name="mail-offers" value="mail-offers" id="mail-offers" /><label
-                        for="mail-offers">I wish to receive personalized offers via e-mail</label>
-                    <input type="checkbox" name="sms-offers" value="sms-offers" id="sms-offers" /><label
-                        for="sms-offers">I
-                        wish to receive personalized offers via SMS</label>
-                </fieldset>
-            </div>
+                <div class="profile-info">
+                    <h2>Your information</h2>
+                    <fieldset class="personal-info">
+                        <input type="text" placeholder="First and middle name" name="firstname" />
+                        <input type="text" placeholder="Last name" name="lastname" />
+                        <input type="text" placeholder="Address" name="address" />
+                        <input type="text" placeholder="Zip code" name="zip" />
+                        <input type="text" placeholder="County" name="county" />
+                        <input type="text" placeholder="E-mail address" name="email" />
+                        <input type="text" placeholder="Phone number" name="tlf" />
+                    </fieldset>
+                    <h2>Your preferences</h2>
+                    <fieldset>
+                        <input type="checkbox" name="mail-offers" value="mail-offers" id="mail-offers" /><label
+                            for="mail-offers">I wish to receive personalized offers via e-mail</label>
+                        <input type="checkbox" name="sms-offers" value="sms-offers" id="sms-offers" /><label
+                            for="sms-offers">I wish to receive personalized offers via SMS</label>
+                    </fieldset>
+                </div>
 
+                <div class="profile-recent">
+                    <h2>Your recent orders</h2>
+                    <fieldset>
+                        <h3>01/11/2020</h3>
+                        <p>The Jordan Jacket</p>
+                        <p>Colour: Red</p>
+                        <p>Size: L</p>
+                        <br>
+                        <p>The Morgan Jacket</p>
+                        <p>Colour: Black</p>
+                        <p>Size: L</p>
+                        <br>
+                        <p>Order number: 1234567890</p>
+                        <br>
+                        <p>Total: $200</p>
+                        <br>
+                        <p>Status: processing</p>
+                    </fieldset>
+                </div>
+            </div>
 
         </main>
     </div>

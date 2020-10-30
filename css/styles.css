@@ -9,28 +9,25 @@ body {
   max-width: 1280px;
 }
 
-h1 {
+h1, h2, h3, h4 {
   font-family: din-condensed, sans-serif;
-  font-size: 50px;
   color: #0a3641;
+}
+
+h1 {
+  font-size: 50px;
 }
 
 h2 {
-  font-family: din-condensed, sans-serif;
   font-size: 30px;
-  color: #0a3641;
 }
 
 h3 {
-  font-family: din-condensed, sans-serif;
   font-size: 24px;
-  color: #0a3641;
 }
 
 h4 {
-  font-family: din-condensed, sans-serif;
   font-size: 18px;
-  color: #0a3641;
 }
 
 p {
@@ -68,7 +65,7 @@ p {
   font-size: 16px;
 }
 
-.headerlinks img {
+.headerlinks a {
   margin-right: auto;
   margin-left: auto;
 }
@@ -86,7 +83,6 @@ ul {
 }
 
 li {
-  display: inline;
   float: left;
   font-family: din-condensed, sans-serif;
   font-size: 20px;
@@ -111,6 +107,10 @@ li a:hover {
 
 main {
   padding-top: 20px;
+}
+
+legend {
+  color: #0a3641;
 }
 
 fieldset {
@@ -140,6 +140,62 @@ a:hover {
 
 input[type="radio"], input[type="checkbox"] {
   margin: 5px;
+}
+
+input[type=radio] + label {
+  display: block;
+  margin: 2px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+input[type=radio] + label:before {
+  content: "";
+  border: 1px solid #0a3641;
+  border-radius: 50%;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 5px;
+  vertical-align: bottom;
+  color: transparent;
+  background-color: #fff;
+}
+
+input[type=radio]:checked + label:before {
+  background-color: #0a3641;
+  border-color: #0a3641;
+  color: #fff;
+}
+
+input[type=checkbox] + label {
+  display: block;
+  margin: 2px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+input[type=checkbox], input[type=radio] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2613";
+  border: 1px solid #0a3641;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 5px;
+  vertical-align: bottom;
+  color: transparent;
+  background-color: #fff;
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: #0a3641;
+  border-color: #0a3641;
+  color: #fff;
 }
 
 /* Index */
@@ -241,7 +297,6 @@ input[type="radio"], input[type="checkbox"] {
   margin-right: auto;
   margin-left: auto;
   border: none;
-
 }
 
 .btn-newsletter {
@@ -347,10 +402,15 @@ label::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .jacket {
   margin: 10px;
+}
+
+.jacket img {
+  margin-bottom: 5px;
 }
 
 .jacketinfo-top {
@@ -385,7 +445,6 @@ label::after {
 }
 
 .jacket-options {
-  display: inline-block;
   float: right;
   margin-right: 250px;
 }
@@ -445,7 +504,13 @@ label::after {
 
 .star-rating {
   float: right;
-  margin-right: 50px;
+  margin-right: 60px;
+  width: 30%;
+}
+
+.stars p {
+  display: inline;
+  text-align: justify;
 }
 
 .total-rating {
@@ -481,7 +546,21 @@ label::after {
   margin-bottom: 10px;
 }
 
+#review-scroll {
+  overflow-y: scroll;
+  height: 400px;
+}
+
+#review-scroll::-webkit-scrollbar {
+  background: #F2F2F2;
+}
+
+#review-scroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
 .customer-photos {
+  margin-left: 5px;
   width: 70%;
 }
 
@@ -540,6 +619,7 @@ label::after {
 .cart-info {
   display: inline-block;
   margin-left: 25px;
+  margin-top: 5px;
 }
 
 .checkout-left {
@@ -608,6 +688,10 @@ input[value="credit"]:checked ~ .card-info {
   float: right;
 }
 
+.newsletter-after input {
+  text-align: center;
+}
+
 .textbox-newsletter {
   width: 545px;
   height: 20px;
@@ -656,18 +740,19 @@ input[value="credit"]:checked ~ .card-info {
 
 .contact-info {
   float: left;
-  width: 45%;
+  width: 50%;
 }
 
 .contact-info section {
   float: left;
   border-bottom-style: solid;
-  border-bottom-color: black;
+  border-bottom-color:#0a3641;
   border-bottom-width: 1px;
 }
 
 .contact-info section:last-child {
   border-bottom: none;
+  width: 100%;
 }
 
 .contact-icons {
@@ -679,10 +764,15 @@ input[value="credit"]:checked ~ .card-info {
   float: right;
   width: 500px;
   margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.submit input {
+  width: 99%;
 }
 
 #message {
-  width: 100%;
+  width: 99%;
   height: 200px;
 }
 
@@ -723,15 +813,25 @@ input[value="credit"]:checked ~ .card-info {
   padding-bottom: 50px;
 }
 
+.wishlist-column img {
+  margin-bottom: 5px;
+}
+
 /* Profile */
+
+#profile {
+  overflow: auto;
+}
+
+.profile-info {
+  float: left;
+  width: 50%;
+}
 
 .profile-recent {
   float: right;
   width: 50%;
-}
-
-.profile-preferences {
-  margin-bottom: 300px;
+  margin-bottom: 15px;
 }
 
 /* Footer */
