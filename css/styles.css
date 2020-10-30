@@ -322,6 +322,7 @@ input[type=checkbox]:checked + label:before {
 
 .column {
   padding: 5px;
+  margin-bottom: 15px;
 }
 
 .column img {
@@ -336,46 +337,34 @@ input[type=checkbox]:checked + label:before {
 
 /* All Jackets*/
 
-.yellow-button {
-  background-color: #FFFF00;
+.yellow-button, .purple-button, .red-button, .green-button, .blue-button, .black-button {
   border: none;
   border-radius: 50%;
   padding: 15px;
+}
+
+.yellow-button {
+  background-color: #FFFF00;
 }
 
 .purple-button {
   background-color: #9400D3;
-  border: none;
-  border-radius: 50%;
-  padding: 15px;
 }
 
 .red-button {
   background-color: #FF0000;
-  border: none;
-  border-radius: 50%;
-  padding: 15px;
 }
 
 .green-button {
   background-color: #00FF00;
-  border: none;
-  border-radius: 50%;
-  padding: 15px;
 }
 
 .blue-button {
   background-color: #0000ff;
-  border: none;
-  border-radius: 50%;
-  padding: 15px;
 }
 
 .black-button {
   background-color: #000;
-  border: none;
-  border-radius: 50%;
-  padding: 15px;
 }
 
 .sidenav {
@@ -620,6 +609,12 @@ label::after {
   display: inline-block;
   margin-left: 25px;
   margin-top: 5px;
+  margin-right: 70px;
+}
+
+.cart-icons {
+  float: right;
+  display: contents;
 }
 
 .checkout-left {
@@ -745,6 +740,7 @@ input[value="credit"]:checked ~ .card-info {
 
 .contact-info section {
   float: left;
+  line-height: 120%;
   border-bottom-style: solid;
   border-bottom-color:#0a3641;
   border-bottom-width: 1px;
@@ -757,7 +753,7 @@ input[value="credit"]:checked ~ .card-info {
 
 .contact-icons {
   float: left;
-  margin: 10px;
+  margin: 20px;
 }
 
 .submit {
@@ -858,11 +854,7 @@ footer {
   color: #fff;
 }
 
-.footer-column h3 {
-  color: #fff;
-}
-
-.footer-column p {
+.footer-column h3, .footer-column p, .footer-column a {
   color: #fff;
 }
 
@@ -870,8 +862,4 @@ footer {
   color: #fff;
   text-align: center;
   padding-bottom: 10px;
-}
-
-footer a {
-  color: #fff;
 }
