@@ -19,14 +19,23 @@
         </section>
 
         <section class="search">
-          <input type="text" name="search" />
+          <input type="text" class="searchbar" placeholder="Search..." name="search" />
         </section>
 
-        <section class="headerlinks">
-          <a href="wishlist.html">Wishlist</a>
-          <a href="myprofile.html">My profile</a>
-          <a href="checkout.html">Shopping cart</a>
-        </section>
+        <div>
+          <div class="headerlinks">
+            <img src="images/Icons/heart40.png" />
+            <a href="wishlist.html">Wishlist</a>
+          </div>
+          <div class="headerlinks">
+            <img src="images/Icons/user40.png" />
+            <a href="myprofile.html">My profile</a>
+          </div>
+          <div class="headerlinks">
+            <img src="images/Icons/shopping-cart40.png" />
+            <a href="checkout.html">Shopping cart</a>
+          </div>
+        </div>
       </div>
 
       <nav>
@@ -45,11 +54,24 @@
       <div class="checkout-right">
         <h3>Order summary</h3>
         <fieldset>
-          <h3>Subtotal: $200</h3>
-          <h3>Discount: $0</h3>
-          <h3>Delivery: $0</h3>
+          <div class="order-line">
+            <h3>Subtotal</h3>
+            <h3>$200</h3>
+          </div>
+          <div class="order-line">
+            <h3>Discount</h3>
+            <h3>$0</h3>
+          </div>
+          <div class="order-line">
+            <h3>Delivery</h3>
+            <h3>$0</h3>
+          </div>
           <hr>
-          <h3>Total: $200</h3>
+          <div class="order-line">
+            <h3>Total</h3>
+            <h3>$200</h3>
+          </div>
+
         </fieldset>
 
         <h3>Promotion code</h3>
@@ -92,20 +114,13 @@
 
         <h3>Your information</h3>
         <fieldset class="personal-info">
-          <p>First and middle name</p>
-          <input type="text" name="firstname" />
-          <p>Last name</p>
-          <input type="text" name="lastname" />
-          <p>Address</p>
-          <input type="text" name="address" />
-          <p>Zip code</p>
-          <input type="text" name="zip" />
-          <p>County</p>
-          <input type="text" name="county" />
-          <p>E-mail address</p>
-          <input type="text" name="email" />
-          <p>Phone number</p>
-          <input type="text" name="tlf" />
+          <input type="text" placeholder="First and middle name" name="firstname" />
+          <input type="text" placeholder="Last name" name="lastname" />
+          <input type="text" placeholder="Address" name="address" />
+          <input type="text" placeholder="Zip code" name="zip" />
+          <input type="text" placeholder="County" name="county" />
+          <input type="text" placeholder="E-mail address" name="email" />
+          <input type="text" placeholder="Phone number" name="tlf" />
         </fieldset>
 
         <div class="delivery">
@@ -126,13 +141,11 @@
           <fieldset>
             <input type="radio" name="payment" value="credit" id="credit" /><label for="credit">Credit/debit
               card</label>
-            <p>Card number</p>
-            <input type="text" name="cardnumber" />
-            <p>Expiration date</p>
-            <input type="text" name="exdate" />
-            <p>CVC</p>
-            <input type="text" name="cvc" />
-            <br>
+            <div class="card-info">
+              <input type="text" placeholder="Card number" name="cardnumber" />
+              <input type="text" placeholder="Expiration date" name="exdate" />
+              <input type="text" placeholder="CVC" name="cvc" />
+            </div>
             <input type="radio" name="payment" value="invoice" id="invoice" /><label for="invoice">Invoice - pay in 14
               days</label>
             <input type="radio" name="payment" value="partial" id="partial" /><label for="partial">Partial payment -

@@ -58,6 +58,7 @@ p {
   height: 25px;
   border: 1px solid #0a3641;
   border-radius: 25px;
+  padding-left: 10px;
 }
 
 .headerlinks {
@@ -65,6 +66,11 @@ p {
   margin-left: 30px;
   font-family: din-condensed, sans-serif;
   font-size: 16px;
+}
+
+.headerlinks img {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 nav {
@@ -104,7 +110,7 @@ li a:hover {
 }
 
 main {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 fieldset {
@@ -132,6 +138,10 @@ a:hover {
   text-decoration: underline;
 }
 
+input[type="radio"], input[type="checkbox"] {
+  margin: 5px;
+}
+
 /* Index */
 
 .sale {
@@ -157,7 +167,7 @@ a:hover {
   color: #fff;
 }
 
-.btn-sale-l {
+.btn-sale-l, .btn-sale-r {
   background-color: #0a3641;
   border: none;
   color: white;
@@ -166,23 +176,15 @@ a:hover {
   text-shadow: none;
   text-decoration: none;
   font-size: 16px;
+  margin: 10px 30px 0 30px;
+}
+
+.btn-sale-l {
   float: left;
-  margin-top: 10px;
-  margin-left: 30px;
 }
 
 .btn-sale-r {
-  background-color: #0a3641;
-  border: none;
-  color: white;
-  padding: 15px 20px;
-  text-align: center;
-  text-shadow: none;
-  text-decoration: none;
-  font-size: 16px;
   float: right;
-  margin-top: 10px;
-  margin-right: 30px;
 }
 
 .news {
@@ -230,24 +232,31 @@ a:hover {
 }
 
 .text-newsletter {
-  width: 215px;
+  width: 213px;
   height: 20px;
   align-content: center;
   text-align: center;
   margin-bottom: 5px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+
 }
 
 .btn-newsletter {
   background-color:#D36900;
   border: none;
   color: white;
-  padding: 15px 40px;
+  padding: 15px 0px 15px 0px;
   text-align: center;
   text-shadow: none;
   text-decoration: none;
-  display: inline-block;
-  align-content: center;
   font-size: 16px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 215px;
 }
 
 .row {
@@ -258,6 +267,10 @@ a:hover {
 
 .column {
   padding: 5px;
+}
+
+.column img {
+  margin-bottom: 5px;
 }
 
 .browse {
@@ -340,22 +353,24 @@ label::after {
   margin: 10px;
 }
 
-.jacketinfo {
-  line-height: 10%;
-}
-
 .jacketinfo-top {
-  display: -webkit-box;
+  display: block;
+  float: left;
+  margin-top: 0px;
 }
 
 .jacketinfo-top h4 {
-  margin-top: 15px;
-  margin-right: 70px;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.stars {
+  float: right;
 }
 
 .jacketinfo-icons {
-  margin-top: 5px;
+  margin-top: 0px;
+  float: right;
 }
 
 /* Single Jacket*/
@@ -481,10 +496,23 @@ label::after {
   margin-bottom: 0;
 }
 
+.order-line {
+  overflow: auto;
+}
+
+.order-line h3:first-child {
+  float: left;
+}
+
+.order-line h3:last-child {
+  float: right;
+}
+
 .promo-code {
-  width: 400px;
+  width: 390px;
   height: 30px;
   margin: 10px;
+  padding-left: 5px;
 }
 
 .btn-promo {
@@ -516,6 +544,42 @@ label::after {
 
 .checkout-left {
   display: grid;
+}
+
+.personal-info, .card-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.personal-info input {
+  width: 45%;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.personal-info input[name="address"] {
+  width: 100%;
+}
+
+.card-info input {
+  width: 45%;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.card-info input[name="cardnumber"] {
+  width: 100%;
+}
+
+.card-info {
+  display: none;
+}
+
+input[value="credit"]:checked ~ .card-info {
+  display: flex;
 }
 
 .btn-purchase {
@@ -559,7 +623,7 @@ label::after {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .order-summary {
@@ -586,6 +650,26 @@ label::after {
 
 /* Contact */
 
+#contact {
+  overflow: auto;
+}
+
+.contact-info {
+  float: left;
+  width: 45%;
+}
+
+.contact-info section {
+  float: left;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+}
+
+.contact-info section:last-child {
+  border-bottom: none;
+}
+
 .contact-icons {
   float: left;
   margin: 10px;
@@ -595,6 +679,11 @@ label::after {
   float: right;
   width: 500px;
   margin-left: 50px;
+}
+
+#message {
+  width: 100%;
+  height: 200px;
 }
 
 .btn-contact {
@@ -680,7 +769,7 @@ footer {
 .copyright {
   color: #fff;
   text-align: center;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 footer a {

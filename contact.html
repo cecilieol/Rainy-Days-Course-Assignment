@@ -15,18 +15,27 @@
     <header>
       <div id="heading">
         <section class="logo">
-          <img src="images/visuals/logo.png" />
+          <a href="index.html"><img src="images/visuals/logo.png" /></a>
         </section>
 
         <section class="search">
-          <input type="text" name="search" />
+          <input type="text" class="searchbar" placeholder="Search..." name="search" />
         </section>
 
-        <section class="headerlinks">
-          <a href="wishlist.html">Wishlist</a>
-          <a href="myprofile.html">My profile</a>
-          <a href="checkout.html">Shopping cart</a>
-        </section>
+        <div>
+          <div class="headerlinks">
+            <img src="images/Icons/heart40.png" />
+            <a href="wishlist.html">Wishlist</a>
+          </div>
+          <div class="headerlinks">
+            <img src="images/Icons/user40.png" />
+            <a href="myprofile.html">My profile</a>
+          </div>
+          <div class="headerlinks">
+            <img src="images/Icons/shopping-cart40.png" />
+            <a href="checkout.html">Shopping cart</a>
+          </div>
+        </div>
       </div>
 
       <nav>
@@ -44,65 +53,69 @@
     <main>
       <h2>Contact</h2>
 
-      <fieldset class="submit">
-        <legend>Submit your inquiry</legend>
-        <form action="submit.php" method="POST">
-          <p>Full name</p>
-          <input type="text" name="fullname" />
-          <p>E-mail address</p>
-          <input type="text" name="email" />
-          <p>Your message</p>
-          <textarea id="message" name="message"></textarea>
-          <br />
-          <a href="#" class="btn btn-contact" role="button">Submit</a>
-        </form>
-      </fieldset>
+      <div id="contact">
+        <div class="contact-info">
+          <section>
+            <p>
+              Our customer service team is continuously working to give you the best
+              help that Rainy Days can offer. You can find info about all ways to
+              contact us here.
+            </p>
+          </section>
 
-      <div class="contact-info">
-        <section>
-          <p>
-            Our customer service team is continuously working to give you the best
-            help that Rainy Days can offer. You can find info about all ways to
-            contact us here.
-          </p>
-        </section>
-        <hr>
-        <div class="contact-icons">
-          <img src="images/Icons/at50.png">
-        </div>
-        <section>
-          <p>
-            When contacting us through the contact sheet, we will send you a reply
-            to your chosen e-mail address. Estimated response time is 1-2 working
-            days.
-          </p>
-          <p>
-            Missing your reply? Don’t forget to check your trash folder for any
-            e-mails sent from info@rainydays.com
-          </p>
-        </section>
-        <hr>
-        <div class="contact-icons">
-          <img src="images/Icons/phone50.png">
-        </div>
-        <section>
-          <p>
-            Our customer service phone number is 12 34 56 78. Our phone lines are
-            operated from 08.00 to 16.00, monday to friday.
-          </p>
-        </section>
-        <hr>
-        <div class="contact-icons">
-          <img src="images/Icons/message50.png">
-        </div>
-        <section>
-          <p>All returns or physical inquiries can be sent to our offices at:</p>
-          <p>Rainy Days AS, 123 RD Avenue, 4567 Oslo</p>
-          <p>To read more about our return policies, click here.</p>
-        </section>
 
+          <section>
+            <div class="contact-icons">
+              <img src="images/Icons/at50.png">
+            </div>
+            <p>
+              When contacting us through the contact sheet, we will send you a reply
+              to your chosen e-mail address. Estimated response time is 1-2 working
+              days.
+            </p>
+            <p>
+              Missing your reply? Don’t forget to check your trash folder for any
+              e-mails sent from info@rainydays.com
+            </p>
+          </section>
+
+
+          <section>
+            <div class="contact-icons">
+              <img src="images/Icons/phone50.png">
+            </div>
+            <p>
+              Our customer service phone number is 12 34 56 78. Our phone lines are
+              operated from 08.00 to 16.00, monday to friday.
+            </p>
+          </section>
+
+
+          <section>
+            <div class="contact-icons">
+              <img src="images/Icons/message50.png">
+            </div>
+            <p>All returns or physical inquiries can be sent to our offices at:</p>
+            <p>Rainy Days AS, 123 RD Avenue, 4567 Oslo</p>
+            <p>To read more about our return policies, click here.</p>
+          </section>
+
+        </div>
+
+        <fieldset class="submit">
+          <legend>Submit your inquiry</legend>
+          <form action="submit.php" method="POST">
+            <p>Full name</p>
+            <input type="text" name="fullname" />
+            <p>E-mail address</p>
+            <input type="text" name="email" />
+            <p>Your message</p>
+            <textarea id="message" name="message"></textarea>
+            <br />
+            <a href="#" class="btn btn-contact" role="button">Submit</a>
+          </form>
+        </fieldset>
       </div>
-
     </main>
   </div>
 
