@@ -509,6 +509,122 @@ input[type="checkbox"]:checked + label:before {
   width: 100%;
 }
 
+/* Checkout */
+
+.checkout-left {
+  display: grid;
+}
+
+.cart {
+  float: left;
+  width: 55%;
+  display: contents;
+}
+
+.cart-content {
+  margin: 20px;
+}
+
+.cart-info {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+.cart-icons {
+  float: right;
+  display: contents;
+}
+
+.checkout-right {
+  width: 100%;
+  top: 0;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.order-line {
+  overflow: auto;
+}
+
+.order-line h3:first-child {
+  float: left;
+}
+
+.order-line h3:last-child {
+  float: right;
+}
+
+.promo-code {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+.btn-promo {
+  background-color: #0a3641;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.personal-info,
+.card-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.personal-info input {
+  width: 45%;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.personal-info input[name="address"] {
+  width: 100%;
+}
+
+.card-info input {
+  width: 45%;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.card-info input[name="cardnumber"] {
+  width: 100%;
+}
+
+.card-info {
+  display: none;
+}
+
+input[value="credit"]:checked ~ .card-info {
+  display: flex;
+}
+
+.btn-purchase {
+  background-color: #1c744b;
+  border: none;
+  color: white;
+  padding: 15px 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 /* Footer */
 
 footer {
