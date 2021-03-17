@@ -677,6 +677,65 @@ input[value="credit"]:checked ~ .card-info {
   text-shadow: 1px 1px #000000;
 }
 
+/* Contact */
+
+#contact {
+  overflow: auto;
+}
+
+.contact-info {
+  width: 100%;
+}
+
+.contact-info section {
+  line-height: 120%;
+  border-bottom-style: solid;
+  border-bottom-color: #0a3641;
+  border-bottom-width: 1px;
+  margin-bottom: 25px;
+}
+
+.contact-icons {
+  float: left;
+  margin: 20px;
+}
+
+.submit {
+  width: 95%;
+  margin-bottom: 15px;
+}
+
+.submit input {
+  width: 99%;
+}
+
+#message {
+  width: 99%;
+  height: 200px;
+}
+
+.submit-button {
+  background-color: #0a3641;
+  border: none;
+  color: white;
+  padding: 15px 225px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  margin-bottom: 15px;
+}
+
+.submitted-form p {
+  color: green;
+}
+
 /* Footer */
 
 footer {
