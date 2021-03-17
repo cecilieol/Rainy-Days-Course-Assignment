@@ -201,7 +201,8 @@ a:hover {
 }
 
 .news h2 {
-  padding: 15px 20px 0 20px;
+  padding: 10px 80px 10px 80px;
+  text-shadow: 1px 1px #fff;
 }
 
 .btn-news {
