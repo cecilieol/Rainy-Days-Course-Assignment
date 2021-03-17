@@ -638,7 +638,6 @@ input[value="credit"]:checked ~ .card-info {
 
 .newsletter-after {
   display: block;
-  float: right;
 }
 
 .newsletter-after input {
@@ -656,6 +655,7 @@ input[value="credit"]:checked ~ .card-info {
   background-color: #d36900;
   border: none;
   color: white;
+  width: 60%;
   padding: 15px 100px;
   text-align: center;
   text-decoration: none;
