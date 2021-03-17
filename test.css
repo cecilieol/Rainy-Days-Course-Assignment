@@ -582,25 +582,17 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .personal-info input {
-  width: 45%;
+  width: 100%;
   height: 20px;
   margin: 5px;
   padding: 5px;
-}
-
-.personal-info input[name="address"] {
-  width: 100%;
 }
 
 .card-info input {
-  width: 45%;
+  width: 100%;
   height: 20px;
   margin: 5px;
   padding: 5px;
-}
-
-.card-info input[name="cardnumber"] {
-  width: 100%;
 }
 
 .card-info {
