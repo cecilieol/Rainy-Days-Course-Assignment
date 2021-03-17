@@ -369,6 +369,14 @@ input[type="checkbox"]:checked + label:before {
   margin: 10px;
 }
 
+.jacket-view img {
+  width: 100%;
+}
+
+.jacket-mini-view img {
+  width: 30%;
+}
+
 .jacket-options {
   margin: 10px;
 }
@@ -495,7 +503,10 @@ input[type="checkbox"]:checked + label:before {
 
 .customer-photos {
   margin-left: 5px;
-  width: 70%;
+}
+
+.customer-photos img {
+  width: 100%;
 }
 
 /* Footer */
