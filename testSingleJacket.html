@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rainy Days - The Jordan Jacket</title>
+  <meta name="description" content="Rainy Days online store. Learn more about our bestseller The Jordan Jacket here." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://use.typekit.net/vkj7nau.css" />
+  <link href="test.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <div id="heading">
+          <section class="logo">
+            <a href="index.html"><img src="images/visuals/logo.png" /></a>
+          </section>
+  
+          <section class="search">
+            <input type="text" class="searchbar" placeholder="Search..." name="search" />
+          </section>
+  
+          <div>
+            <div class="headerlinks">
+              <a href="wishlist.html">
+                <img src="images/Icons/heart40.png" /> </a>
+              <a href="wishlist.html">Wishlist</a>
+            </div>
+            <div class="headerlinks">
+              <a href="myprofile.html">
+                <img src="images/Icons/user40.png" /></a>
+              <a href="myprofile.html">My profile</a>
+            </div>
+            <div class="headerlinks">
+              <a href="checkout.html">
+                <img src="images/Icons/shopping-cart40.png" /></a>
+              <a href="checkout.html">Shopping cart</a>
+            </div>
+          </div>
+        </div>
+        
+
+<label for="hamburger">
+  <div id="hamburger-icon">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+</label>
+<input type="checkbox" id="hamburger">
+
+<nav>
+        <ul>
+          <h2>Products</h2>
+          <li><a href="alljackets.html">All Jackets</a></li>
+          <li><a href="alljackets.html">Women's Jackets</a></li>
+          <li><a href="alljackets.html">Men's Jackets</a></li>
+          <li><a href="alljackets.html">Unisex Jackets</a></li>
+          <li><a href="alljackets.html">News</a></li>
+          <li><a href="alljackets.html">Sale</a></li>
+
+          <h2>Rainy Days</h2>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <h2>Your pages</h2>
+          <li><a href="myprofile.html">My profile</a></li>
+          <li><a href="wishlist.html">Wishlist</a></li>
+        </ul>
+  </nav>
+</header>
+
+    <main>
+      <div class="breadcrumb">
+        <p><a href="index.html">Home</a></p>
+        <p> / </p>
+        <p><a href="alljackets.html"> All Jackets</a></p>
+        <p> / The Jordan Jacket</p>
+      </div>
+      <div class="jacket-view">
+        <img src="images/Visuals/main-red-jacket.jpg" />
+        <div class="jacket-mini-view">
+            <img src="images/Visuals/mini-red-jacket.jpg" style="margin: 0px 23px 25px 0px;" />
+            <img src="images/Visuals/mini-red-jacket-2.jpg" style="margin: 0px 24px 25px 0px;" />
+            <img src="images/Visuals/mini-red-jacket-3.jpg" style="margin: 0px 24px 25px 0px;" />
+          </div>
+      </div>
+
+      <div class="jacket-options">
+        <h1>The Jordan Jacket</h1>
+        <h2>$100</h2>
+
+        <img src="images/Icons/star fill25.png">
+        <img src="images/Icons/star fill25.png">
+        <img src="images/Icons/star fill25.png">
+        <img src="images/Icons/star fill25.png">
+        <img src="images/Icons/star25.png">
+
+        <h3>Choose colour</h3>
+        <div class="choose-colour">
+          <!-- <button class="yellow-button"></button>
+          <button class="purple-button"></button>
+          <button class="red-button"></button>
+          <button class="green-button"></button>
+          <button class="blue-button"></button>
+          <button class="black-button"></button> -->
+          <input type="radio" name="color" value="yellow" id="yellow" /><label for="yellow">Yellow</label>
+          <input type="radio" name="color" value="purple" id="purple" /><label for="purple">Purple</label>
+          <input type="radio" name="color" value="red" id="red" /><label for="red">Red</label>
+          <input type="radio" name="color" value="green" id="green" /><label for="green">Green</label>
+          <input type="radio" name="color" value="blue" id="blue" /><label for="blue">Blue</label>
+          <input type="radio" name="color" value="black" id="black" /><label for="black">Black</label>
+        </div>
+        <div class="color-error"></div>
+
+        <h3>Choose size</h3>
+        <div class="choose-size">
+          <input type="radio" name="size" value="XS" id="XS" /><label for="XS">XS</label>
+          <input type="radio" name="size" value="S" id="S" /><label for="S">S</label>
+          <input type="radio" name="size" value="M" id="M" /><label for="M">M</label>
+          <input type="radio" name="size" value="L" id="L" /><label for="L">L</label>
+          <input type="radio" name="size" value="XL" id="XL" /><label for="XL">XL</label>
+          <input type="radio" name="size" value="XXL" id="XXL" /><label for="XXL">XXL</label>
+        </div>
+        <div class="size-error"></div>
+
+        <button type="button" class="btn-cart">Add to cart</button>
+        <div class="added"></div>
+      </div>
+
+      <hr>
+
+      <div class="jacket-info">
+        <h3>Specifications</h3>
+
+        <label for="view-more-specs">
+            <div id="view-more-text">
+                <p>View more</p>
+            </div>
+          </label>
+          <input type="checkbox" id="view-more-specs">
+
+        <section class="jacket-specs">
+          <p>Weight: 123 grams</p>
+          <p>Material: Polyester</p>
+          <p>Pockets: 4</p>
+          <p>Hood: Yes</p>
+          <p>Wind resistant: Yes</p>
+          <p>Water resistant: Yes</p>
+          <p>Adjustable waist: Yes</p>
+        </section>
+
+        
+          <h3>About this jacket</h3>
+
+          <label for="view-more-about">
+            <div id="view-more-text">
+                <p>View more</p>
+            </div>
+          </label>
+          <input type="checkbox" id="view-more-about">
+
+          <section class="about-jacket">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae magna sapien. Duis dignissim neque ac
+            arcu commodo elementum. Quisque laoreet massa neque, quis rhoncus neque mollis rhoncus. Etiam a dictum quam.
+            Nulla maximus euismod sollicitudin. Nunc at turpis fringilla, congue leo at, tempus velit. Sed porta ante
+            est, nec commodo ligula congue vel. Suspendisse id luctus eros. Vestibulum id pretium quam, et lobortis mi.
+            Nullam mattis posuere ultrices. Etiam auctor elit nec urna efficitur, quis ultrices urna vestibulum.
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae magna sapien. Duis dignissim neque ac
+            arcu commodo elementum. Quisque laoreet massa neque, quis rhoncus neque mollis rhoncus. Etiam a dictum quam.
+            Nulla maximus euismod sollicitudin. Nunc at turpis fringilla, congue leo at, tempus velit. Sed porta ante
+            est, nec commodo ligula congue vel. Suspendisse id luctus eros. Vestibulum id pretium quam, et lobortis mi.
+            Nullam mattis posuere ultrices. Etiam auctor elit nec urna efficitur, quis ultrices urna vestibulum.
+          </p>
+        </section>
+      </div>
+
+      <hr>
+
+      <div class="customer-section">
+        <div class="customer-reviews">
+          <h3>Reviews</h3>
+
+          <div class="star-rating">
+            <div class="stars">
+              <p>(10)</p>
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+            </div>
+            <div class="stars">
+              <p>(10)</p>
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+            </div>
+            <div class="stars">
+              <p>(10)</p>
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+            </div>
+            <div class="stars">
+              <p>(0)</p>
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+            </div>
+            <div class="stars">
+              <p>(0)</p>
+              <img src="images/Icons/star fill25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+              <img src="images/Icons/star25.png">
+            </div>
+          </div>
+
+          <div class="total-rating">
+            <h2>4/5</h2>
+            <img src="images/Icons/star fill30.png">
+          </div>
+
+          <a href="#" class="btn btn-review" role="button">Write a review of this product</a>
+
+          <div id="review-scroll">
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star25.png">
+                <img src="images/Icons/star25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star25.png">
+                <img src="images/Icons/star25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star25.png">
+                <img src="images/Icons/star25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <div class="review-title">
+                <h3>Review title</h3>
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star fill25.png">
+                <img src="images/Icons/star25.png">
+                <img src="images/Icons/star25.png">
+              </div>
+              <p>Main review text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus dignissim
+                commodo.</p>
+            </fieldset>
+          </div>
+        </div>
+
+        <div class="customer-photos">
+          <h3>Customer photos</h3>
+          <img src="images/Visuals/customer-photo-grid.png">
+          <p>Follow us on Instagram @RainyDaysGram for more</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <h3>You might also like</h3>
+      <div class="row">
+        <div class="column">
+          <a href="singlejacket.html">
+            <img src="images/Visuals/red-jacket-boy-front.jpg" alt="Jordan" width="250px" />
+            <div class="jacketinfo">
+              <div class="jacketinfo-top">
+                <h4>The Jordan Jacket</h4>
+                <h4>$100</h4>
+          </a>
+        </div>
+        <div class="jacketinfo-icons">
+          <img src="images/Icons/shopping-cart25.png">
+          <img src="images/Icons/heart25.png">
+        </div>
+      </div>
+  </div>
+
+  <div class="column">
+    <a href="singlejacket.html">
+      <img src="images/Visuals/yellow-jacket.jpg" alt="Taylor" width="250px" />
+      <div class="jacketinfo">
+        <div class="jacketinfo-top">
+          <h4>The Jordan Jacket</h4>
+          <h4>$100</h4>
+    </a>
+  </div>
+  <div class="jacketinfo-icons">
+    <img src="images/Icons/shopping-cart25.png">
+    <img src="images/Icons/heart25.png">
+  </div>
+  </div>
+  </div>
+
+  <div class="column">
+    <a href="singlejacket.html">
+      <img src="images/Visuals/black-jacket.jpg" alt="Morgan" width="250px" />
+      <div class="jacketinfo">
+        <div class="jacketinfo-top">
+          <h4>The Jordan Jacket</h4>
+          <h4>$100</h4>
+    </a>
+  </div>
+  <div class="jacketinfo-icons">
+    <img src="images/Icons/shopping-cart25.png">
+    <img src="images/Icons/heart25.png">
+  </div>
+  </div>
+  </div>
+
+  <div class="column">
+    <a href="singlejacket.html">
+      <img src="images/Visuals/red-jacket-duffelbag.jpg" alt="Jessie" width="250px" />
+      <div class="jacketinfo">
+        <div class="jacketinfo-top">
+          <h4>The Jordan Jacket</h4>
+          <h4>$100</h4>
+    </a>
+  </div>
+  <div class="jacketinfo-icons">
+    <img src="images/Icons/shopping-cart25.png">
+    <img src="images/Icons/heart25.png">
+  </div>
+  </div>
+  </div>
+  </div>
+
+  </main>
+  </div>
+  <footer>
+    <section class="footer-row">
+      <div class="footer-column">
+        <h3>Help</h3>
+        <p><a href="contact.html">Contact</a></p>
+        <p>FAQ</p>
+        <p>Terms and conditions</p>
+        <p>Privacy</p>
+        <p>Delivery</p>
+        <p>Payment</p>
+        <p>Return policies</p>
+      </div>
+      <div class="footer-column">
+        <h3>Information</h3>
+        <p><a href="about.html">About Rainy Days</a></p>
+        <p>Press</p>
+        <p>Sustainability</p>
+        <p>Affiliate</p>
+      </div>
+      <div class="footer-column">
+        <h3>Our products</h3>
+        <p><a href="alljackets.html">All Jackets</a></p>
+        <p><a href="alljackets.html">Women's Jackets</a></p>
+        <p><a href="alljackets.html">Men's Jackets</a></p>
+        <p><a href="alljackets.html">Unisex Jackets</a></p>
+      </div>
+      <div class="footer-column">
+        <h3>Follow us</h3>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>YouTube</p>
+      </div>
+    </section>
+    <div class="copyright">
+      <span>© Rainy Days 2020</span>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
