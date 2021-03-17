@@ -201,7 +201,7 @@ a:hover {
 }
 
 .news h2 {
-  padding: 15px 220px 0 20px;
+  padding: 15px 20px 0 20px;
 }
 
 .btn-news {
@@ -216,7 +216,7 @@ a:hover {
   display: block;
   float: right;
   margin-right: 30px;
-  margin-top: 175px;
+  margin-top: 100px;
   width: 100px;
 }
 
