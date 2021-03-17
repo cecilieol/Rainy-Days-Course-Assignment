@@ -767,6 +767,16 @@ input[value="credit"]:checked ~ .card-info {
   margin-bottom: 5px;
 }
 
+/* Profile */
+
+#profile {
+  overflow: auto;
+}
+
+.profile-recent {
+  margin-bottom: 15px;
+}
+
 /* Footer */
 
 footer {
