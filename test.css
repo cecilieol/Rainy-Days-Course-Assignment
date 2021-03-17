@@ -739,7 +739,6 @@ input[value="credit"]:checked ~ .card-info {
 /* About */
 
 .about-image {
-  margin-left: 30px;
   margin-bottom: 30px;
 }
 
@@ -750,6 +749,22 @@ input[value="credit"]:checked ~ .card-info {
 .about-text {
   margin: 0 10px 30px 10px;
   text-align: justify;
+}
+
+/* Wishlist */
+
+.wishlist-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wishlist-column {
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.wishlist-column img {
+  margin-bottom: 5px;
 }
 
 /* Footer */
