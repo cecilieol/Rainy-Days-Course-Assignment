@@ -148,6 +148,10 @@ input[type="checkbox"]:checked + label:before {
   display: none;
 }
 
+#cart-icon {
+  margin-bottom: 1em;
+}
+
 /* NAVIGATION */
 
 nav {
@@ -175,6 +179,14 @@ nav {
   margin: 5px;
   border-radius: 5px;
   background-color: #0a3641;
+}
+
+.mobile-searchbar {
+  width: 90%;
+  height: 25px;
+  border: 1px solid #0a3641;
+  border-radius: 25px;
+  padding-left: 10px;
 }
 
 nav ul {
@@ -884,6 +896,11 @@ footer {
     margin: 15px 0px 10px 0px;
   }
 
+  .mobile-searchbar,
+  #cart-icon {
+    display: none;
+  }
+
   .search {
     display: inline-grid;
     margin: 0px 30px 10px 20px;
@@ -919,12 +936,12 @@ footer {
     display: none;
   }
 
-  ul:nth-child(8),
-  :nth-child(9),
+  ul:nth-child(9),
   :nth-child(10),
   :nth-child(11),
   :nth-child(12),
-  :nth-child(13) {
+  :nth-child(13),
+  :nth-child(14) {
     display: none;
   }
 
