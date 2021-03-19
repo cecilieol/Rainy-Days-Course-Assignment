@@ -1,3 +1,4 @@
+const remove = document.querySelector('.remove-icon');
 
 const firstname = document.querySelector('#firstname');
 const lastname = document.querySelector('#lastname');
@@ -63,12 +64,6 @@ function validateInfo(event) {
     } else {
         infoError.innerHTML = "<p>Please do not leave any inputs empty</p>";
     }
-
-    // if ((firstname.value.trim().length > 0) && (lastname.value.trim().length > 0) && (address.value.trim().length > 0) && (zip.value.trim().length > 0) && (county.value.trim().length > 0) && (email.value.trim().length > 0) && (phone.value.trim().length > 0)) {
-    //     window.location.href = "https://rainydays-courseassignment-cecilieolsen.netlify.com/checkoutsuccess.html";
-    // } else {
-    //     return false;
-    // }
 }
 
 completePurchase.addEventListener("click", validateInfo);

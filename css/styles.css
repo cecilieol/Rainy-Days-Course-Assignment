@@ -433,10 +433,6 @@ nav a {
   font-size: 24px;
 }
 
-.added p {
-  color: green !important;
-}
-
 .jacket-specs,
 .about-jacket {
   display: none;
@@ -1097,6 +1093,15 @@ footer {
   }
 
   .btn-cart {
+    background-color: #1c744b;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
     margin-top: 50px;
     margin-bottom: 30px;
   }
@@ -1208,6 +1213,7 @@ footer {
 
   .order-summary {
     width: 98%;
+    display: block;
   }
 
   .checkout-success-right {
