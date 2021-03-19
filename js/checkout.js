@@ -1,4 +1,6 @@
 const remove = document.querySelector('.remove-icon');
+const promoCode = document.querySelector('.promo-code');
+const promoButton = document.querySelector('.btn-promo');
 
 const firstname = document.querySelector('#firstname');
 const lastname = document.querySelector('#lastname');
@@ -19,6 +21,20 @@ const terms = document.getElementsByName('terms');
 const termsError = document.querySelector('.terms-error');
 
 const completePurchase = document.querySelector(".btn-purchase");
+
+
+function addCode(event) {
+    event.preventDefault();
+
+    if(promoCode.value === "RainyDays10") {
+        promoButton.innerHTML = "Added!";
+    } else {
+        return false;
+    }
+}
+
+promoButton.addEventListener("click", addCode);
+
 
 function validateInfo(event) {
     event.preventDefault();

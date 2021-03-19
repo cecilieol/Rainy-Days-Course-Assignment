@@ -40,6 +40,10 @@ fieldset {
   margin-right: 50px;
 }
 
+button {
+  cursor: pointer;
+}
+
 .breadcrumb {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -258,7 +262,6 @@ nav a {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  border: none;
 }
 
 .btn-newsletter {
@@ -682,7 +685,7 @@ input[value="credit"]:checked ~ .card-info {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .read-about h3 {
@@ -1226,6 +1229,8 @@ footer {
     float: left;
     margin-left: 25px;
     margin-right: 60px;
+    padding: 0 20px 0 20px;
+    border: 1px solid #0a3641;
   }
 
   .newsletter-after input {
