@@ -412,12 +412,12 @@ nav a {
 }
 
 .jacket-view img {
-  width: 100%;
+  width: 90%;
 }
 
 .jacket-mini-view img {
   width: 30%;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .jacket-options {
