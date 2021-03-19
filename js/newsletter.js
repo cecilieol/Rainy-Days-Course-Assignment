@@ -1,12 +1,14 @@
 const emailInput = document.querySelector('.text-newsletter');
 const newsletterButton = document.querySelector('.btn-newsletter');
+const emailError = document.querySelector('.email-error');
 
 function emailValidation() {
 
     if(validateEmail(emailInput.value)) {
         newsletterButton.innerHTML = "Signed up!";
+        emailError.innerHTML = "";
     } else {
-        return false;
+        emailError.innerHTML = "<p>Please enter a valid e-mail address</p>";
     }
 
 }

@@ -63,6 +63,20 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Error styling */
+
+.color-error p,
+.size-error p,
+.promo-error p,
+.delivery-error p,
+.payment-error p,
+.terms-error p,
+.info-error p,
+.email-error p {
+  display: block;
+  color: red !important;
+}
+
 /* Radio buttons and checkbox styling */
 
 input[type="radio"],
@@ -253,6 +267,10 @@ nav a {
   margin-left: auto;
 }
 
+.newsletter p {
+  background: white;
+}
+
 .text-newsletter {
   width: 213px;
   height: 20px;
@@ -412,16 +430,6 @@ nav a {
 
 .choose-size {
   display: inline-flex;
-}
-
-.color-error p,
-.size-error p,
-.delivery-error p,
-.payment-error p,
-.terms-error p,
-.info-error p,
-.email-error p {
-  color: red !important;
 }
 
 .btn-cart {
@@ -592,6 +600,10 @@ nav a {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.promo-error {
+  padding-left: 15px;
 }
 
 .personal-info,
@@ -847,7 +859,7 @@ footer {
   }
 
   .newsletter h2 {
-    padding: 100px;
+    padding: 80px;
   }
 
   .news {
@@ -1115,17 +1127,6 @@ footer {
 
   .choose-size {
     display: inline-flex;
-  }
-
-  .color-error p,
-  .size-error p,
-  .delivery-error p,
-  .payment-error p,
-  .terms-error p,
-  .info-error p,
-  .email-error p {
-    display: block;
-    color: red !important;
   }
 
   #view-more-text {

@@ -1,6 +1,7 @@
 const remove = document.querySelector('.remove-icon');
 const promoCode = document.querySelector('.promo-code');
 const promoButton = document.querySelector('.btn-promo');
+const promoError = document.querySelector('.promo-error');
 
 const firstname = document.querySelector('#firstname');
 const lastname = document.querySelector('#lastname');
@@ -28,8 +29,9 @@ function addCode(event) {
 
     if(promoCode.value === "RainyDays10") {
         promoButton.innerHTML = "Added!";
+        promoError.innerHTML = "";
     } else {
-        return false;
+        promoError.innerHTML = "<p>Invalid code</p>"
     }
 }
 

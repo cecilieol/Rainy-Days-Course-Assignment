@@ -8,7 +8,7 @@ const email = document.querySelector("#email");
 const emailError = document.querySelector("#email-error");
 const address = document.querySelector("#message");
 const addressError = document.querySelector("#message-error");
-const button = document.querySelector("button");
+const button = document.querySelector(".submit-button");
 
 
 function validateForm(event) {
