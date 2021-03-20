@@ -428,6 +428,11 @@ nav a {
   display: inline-flex;
 }
 
+.color-error,
+.size-error {
+  display: block !important;
+}
+
 .choose-size {
   display: inline-flex;
 }
@@ -760,6 +765,10 @@ input[value="credit"]:checked ~ .card-info {
   display: none;
   color: red;
   margin-bottom: 15px;
+}
+
+.submitted-form {
+  display: block !important;
 }
 
 .submitted-form p {
