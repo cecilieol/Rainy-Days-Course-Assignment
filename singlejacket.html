@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Rainy Days - The Jordan Jacket</title>
+  <title>Rainy Days</title>
   <meta name="description" content="Rainy Days online store. Learn more about our bestseller The Jordan Jacket here." />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -65,11 +65,11 @@
           
           <h2>Products</h2>
           <li><a href="alljackets.html">All Jackets</a></li>
-          <li><a href="alljackets.html">Women's Jackets</a></li>
-          <li><a href="alljackets.html">Men's Jackets</a></li>
-          <li><a href="alljackets.html">Unisex Jackets</a></li>
-          <li><a href="alljackets.html">News</a></li>
-          <li><a href="alljackets.html">Sale</a></li>
+          <li><a href="womensjackets.html">Women's Jackets</a></li>
+          <li><a href="mensjackets.html">Men's Jackets</a></li>
+          <li><a href="unisexjackets.html">Unisex Jackets</a></li>
+          <li><a href="newjackets.html">News</a></li>
+          <li><a href="salejackets.html">Sale</a></li>
 
           <h2>Rainy Days</h2>
           <li><a href="about.html">About</a></li>
@@ -84,110 +84,77 @@
 
     <main>
       <div class="breadcrumb">
-        <p><a href="index.html">Home</a></p>
-        <p> / </p>
-        <p><a href="alljackets.html"> All Jackets</a></p>
-        <p> / The Jordan Jacket</p>
+      <p><a href="index.html">Home / </a></p>
+      <div class="previous-page"><p> Previous page / </p></div>
+      <div class="current-page"> </div>
+    </div>
+
+      <div class="loading">
+        <div class="loading-dot"></div>
+        <div class="loading-dot"></div>
+        <div class="loading-dot"></div>
       </div>
-      <div class="jacket-view">
-        <img src="images/Visuals/main-red-jacket.jpg" />
-        <div class="jacket-mini-view">
-            <img src="images/Visuals/mini-red-jacket.jpg" />
-            <img src="images/Visuals/mini-red-jacket-2.jpg" />
-            <img src="images/Visuals/mini-red-jacket-3.jpg" />
-          </div>
+
+      <div class="jacket-page">
+        <div class="jacket-view"></div>
+        <div class="jacket-info"></div>
       </div>
 
       <div class="jacket-options">
-        <h1>The Jordan Jacket</h1>
-        <h2>$100</h2>
+        <img src="images/Icons/star fill25.png">
+      <img src="images/Icons/star fill25.png">
+      <img src="images/Icons/star fill25.png">
+      <img src="images/Icons/star fill25.png">
+      <img src="images/Icons/star25.png">
 
-        <img src="images/Icons/star fill25.png">
-        <img src="images/Icons/star fill25.png">
-        <img src="images/Icons/star fill25.png">
-        <img src="images/Icons/star fill25.png">
-        <img src="images/Icons/star25.png">
-
-        <h3>Choose colour</h3>
-        <div class="choose-colour">
-          <input type="radio" name="color" value="yellow" id="yellow" /><label for="yellow">Yellow</label>
-          <input type="radio" name="color" value="purple" id="purple" /><label for="purple">Purple</label>
-          <input type="radio" name="color" value="red" id="red" /><label for="red">Red</label>
-          <input type="radio" name="color" value="green" id="green" /><label for="green">Green</label>
-          <input type="radio" name="color" value="blue" id="blue" /><label for="blue">Blue</label>
-          <input type="radio" name="color" value="black" id="black" /><label for="black">Black</label>
-        </div>
-        <div class="color-error"></div>
-
-        <h3>Choose size</h3>
-        <div class="choose-size">
-          <input type="radio" name="size" value="XS" id="XS" /><label for="XS">XS</label>
-          <input type="radio" name="size" value="S" id="S" /><label for="S">S</label>
-          <input type="radio" name="size" value="M" id="M" /><label for="M">M</label>
-          <input type="radio" name="size" value="L" id="L" /><label for="L">L</label>
-          <input type="radio" name="size" value="XL" id="XL" /><label for="XL">XL</label>
-          <input type="radio" name="size" value="XXL" id="XXL" /><label for="XXL">XXL</label>
-        </div>
-        <div class="size-error"></div>
-        
-        
-        <button type="button" class="btn-cart">Add to cart</button>
+      <h3>Choose colour</h3>
+      <div class="choose-colour">
+        <input type="radio" name="color" value="yellow" id="yellow" /><label for="yellow">Yellow</label>
+        <input type="radio" name="color" value="purple" id="purple" /><label for="purple">Purple</label>
+        <input type="radio" name="color" value="red" id="red" /><label for="red">Red</label>
+        <input type="radio" name="color" value="green" id="green" /><label for="green">Green</label>
+        <input type="radio" name="color" value="blue" id="blue" /><label for="blue">Blue</label>
+        <input type="radio" name="color" value="black" id="black" /><label for="black">Black</label>
       </div>
+      <div class="color-error"></div>
 
-      <hr>
-
-      <div class="jacket-info">
-        <h3>Specifications</h3>
-
-        <label for="view-more-specs">
-            <div id="view-more-text">
-                <p>View more</p>
-            </div>
-          </label>
-          <input type="checkbox" id="view-more-specs">
-
-        <section class="jacket-specs">
-          <p>Weight: 123 grams</p>
-          <p>Material: Polyester</p>
-          <p>Pockets: 4</p>
-          <p>Hood: Yes</p>
-          <p>Wind resistant: Yes</p>
-          <p>Water resistant: Yes</p>
-          <p>Adjustable waist: Yes</p>
-        </section>
+      <h3>Choose size</h3>
+      <div class="choose-size">
+        <input type="radio" name="size" value="XS" id="XS" /><label for="XS">XS</label>
+        <input type="radio" name="size" value="S" id="S" /><label for="S">S</label>
+        <input type="radio" name="size" value="M" id="M" /><label for="M">M</label>
+        <input type="radio" name="size" value="L" id="L" /><label for="L">L</label>
+        <input type="radio" name="size" value="XL" id="XL" /><label for="XL">XL</label>
+        <input type="radio" name="size" value="XXL" id="XXL" /><label for="XXL">XXL</label>
       </div>
-      <div class="jacket-info">
-          <h3>About this jacket</h3>
-          
-          <label for="view-more-about">
-            <div id="view-more-text">
-                <p>View more</p>
-            </div>
-          </label>
-          <input type="checkbox" id="view-more-about">
+      <div class="size-error"></div>
+      
 
-          <section class="about-jacket">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae magna sapien. Duis dignissim neque ac
-            arcu commodo elementum. Quisque laoreet massa neque, quis rhoncus neque mollis rhoncus. Etiam a dictum quam.
-            Nulla maximus euismod sollicitudin. Nunc at turpis fringilla, congue leo at, tempus velit. Sed porta ante
-            est, nec commodo ligula congue vel. Suspendisse id luctus eros. Vestibulum id pretium quam, et lobortis mi.
-            Nullam mattis posuere ultrices. Etiam auctor elit nec urna efficitur, quis ultrices urna vestibulum.
-          </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae magna sapien. Duis dignissim neque ac
-            arcu commodo elementum. Quisque laoreet massa neque, quis rhoncus neque mollis rhoncus. Etiam a dictum quam.
-            Nulla maximus euismod sollicitudin. Nunc at turpis fringilla, congue leo at, tempus velit. Sed porta ante
-            est, nec commodo ligula congue vel. Suspendisse id luctus eros. Vestibulum id pretium quam, et lobortis mi.
-            Nullam mattis posuere ultrices. Etiam auctor elit nec urna efficitur, quis ultrices urna vestibulum.
-          </p>
-        </section>
-      </div>
+      <button type="button" class="btn-cart">Add to cart</button>
+    </div>
 
-      <hr>
+    <br>
+    <br>
+    <hr>
+
+    <div class="about-section">
+      <h2>About this jacket</h2>
+        <label for="view-more-about">
+          <div id="view-more-text">
+              <p>Read more</p>
+          </div>
+        </label>
+        <input type="checkbox" id="view-more-about">
+
+        <section class="about-jacket"></section>
+    </div>
+
+     <hr>
 
       <div class="customer-section">
         <div class="customer-reviews">
           <h3>Reviews</h3>
-
+  
           <div class="star-rating">
             <div class="stars">
               <p>(10)</p>
@@ -230,14 +197,14 @@
               <img src="images/Icons/star25.png">
             </div>
           </div>
-
+  
           <div class="total-rating">
             <h2>4/5</h2>
             <img src="images/Icons/star fill30.png">
           </div>
-
+  
           <button class="btn btn-review" role="button">Write a review of this product</button>
-
+  
           <div id="review-scroll">
             <fieldset>
               <div class="review-title">
@@ -396,82 +363,15 @@
             </fieldset>
           </div>
         </div>
-
+  
         <div class="customer-photos">
           <h3>Customer photos</h3>
           <img src="images/Visuals/customer-photo-grid.png">
           <p>Follow us on Instagram @RainyDaysGram for more</p>
         </div>
-      </div>
+    </div>
 
-      <hr>
-
-      <h3>You might also like</h3>
-      <div class="row">
-        <div class="column">
-          <a href="singlejacket.html">
-            <img src="images/Visuals/red-jacket-boy-front.jpg" alt="Jordan" width="250px" />
-            <div class="jacketinfo">
-              <div class="jacketinfo-top">
-                <h4>The Jordan Jacket</h4>
-                <h4>$100</h4>
-          </a>
-        </div>
-        <div class="jacketinfo-icons">
-          <img src="images/Icons/shopping-cart25.png">
-          <img src="images/Icons/heart25.png">
-        </div>
-      </div>
-  </div>
-
-  <div class="column">
-    <a href="singlejacket.html">
-      <img src="images/Visuals/yellow-jacket.jpg" alt="Taylor" width="250px" />
-      <div class="jacketinfo">
-        <div class="jacketinfo-top">
-          <h4>The Jordan Jacket</h4>
-          <h4>$100</h4>
-    </a>
-  </div>
-  <div class="jacketinfo-icons">
-    <img src="images/Icons/shopping-cart25.png">
-    <img src="images/Icons/heart25.png">
-  </div>
-  </div>
-  </div>
-
-  <div class="column">
-    <a href="singlejacket.html">
-      <img src="images/Visuals/black-jacket.jpg" alt="Morgan" width="250px" />
-      <div class="jacketinfo">
-        <div class="jacketinfo-top">
-          <h4>The Jordan Jacket</h4>
-          <h4>$100</h4>
-    </a>
-  </div>
-  <div class="jacketinfo-icons">
-    <img src="images/Icons/shopping-cart25.png">
-    <img src="images/Icons/heart25.png">
-  </div>
-  </div>
-  </div>
-
-  <div class="column">
-    <a href="singlejacket.html">
-      <img src="images/Visuals/red-jacket-duffelbag.jpg" alt="Jessie" width="250px" />
-      <div class="jacketinfo">
-        <div class="jacketinfo-top">
-          <h4>The Jordan Jacket</h4>
-          <h4>$100</h4>
-    </a>
-  </div>
-  <div class="jacketinfo-icons">
-    <img src="images/Icons/shopping-cart25.png">
-    <img src="images/Icons/heart25.png">
-  </div>
-  </div>
-  </div>
-  </div>
+    
 
   </main>
   </div>
@@ -512,7 +412,8 @@
       <span>© Rainy Days 2020</span>
     </div>
   </footer>
-  <script src="js/jacket.js"></script>
+  <script src="js/displayError.js"></script>
+  <script src="js/jacketdetails.js"></script>
 </body>
 
 </html>

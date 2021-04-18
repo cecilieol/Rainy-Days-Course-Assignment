@@ -1,4 +1,4 @@
-const remove = document.querySelector('.remove-icon');
+/* Checkout validation */
 const promoCode = document.querySelector('.promo-code');
 const promoButton = document.querySelector('.btn-promo');
 const promoError = document.querySelector('.promo-error');

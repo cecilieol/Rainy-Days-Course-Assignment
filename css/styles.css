@@ -45,13 +45,21 @@ button {
 }
 
 .breadcrumb {
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-flex;
 }
 
 .breadcrumb p {
-  display: inline;
   font-size: 16px;
+}
+
+.previous-page {
+  cursor: pointer;
+}
+
+.previous-page:hover {
+  text-decoration: underline;
 }
 
 a {
@@ -345,20 +353,15 @@ nav a {
   margin-bottom: 5px;
 }
 
-.jacketinfo-top {
-  display: block;
+.jacketinfo {
+  display: block !important;
   float: left;
   margin-top: 0px;
 }
 
-.jacketinfo-top h4 {
+.jacketinfo h4 {
   margin-top: 0px;
   margin-bottom: 5px;
-}
-
-.jacketinfo-icons {
-  margin-top: 0px;
-  float: right;
 }
 
 .browse {
@@ -397,12 +400,17 @@ nav a {
   margin: 10px;
 }
 
-.jacket img {
-  margin-bottom: 5px;
+.jacket h4 {
+  margin: 0;
+  padding: 0;
 }
 
-.stars {
-  float: right;
+.new-price {
+  display: inline-flex;
+}
+
+.new-price h4:last-child {
+  text-decoration: line-through;
 }
 
 /* Single Jacket */
@@ -413,15 +421,22 @@ nav a {
 
 .jacket-view img {
   width: 90%;
+  margin-bottom: 40px;
 }
 
-.jacket-mini-view img {
-  width: 30%;
-  margin-right: 5px;
+.jacket-info h1 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.jacket-info h2:nth-child(3) {
+  text-decoration: line-through;
 }
 
 .jacket-options {
+  display: none;
   margin: 10px;
+  padding-top: 10px;
 }
 
 .choose-colour {
@@ -449,6 +464,10 @@ nav a {
   font-size: 24px;
 }
 
+.about-section {
+  display: none;
+}
+
 .jacket-specs,
 .about-jacket {
   display: none;
@@ -468,7 +487,7 @@ nav a {
 }
 
 .jacket-info {
-  display: block;
+  display: inline-block !important;
   margin: 10px;
 }
 
@@ -478,6 +497,7 @@ nav a {
 
 .customer-section {
   display: block;
+  visibility: hidden;
   margin: 10px;
 }
 
@@ -576,16 +596,8 @@ nav a {
   margin-top: 50px;
 }
 
-.order-line {
+.total {
   overflow: auto;
-}
-
-.order-line h3:first-child {
-  float: left;
-}
-
-.order-line h3:last-child {
-  float: right;
 }
 
 .promo-code {
@@ -1041,11 +1053,10 @@ footer {
     display: block;
     width: 250px;
     margin-right: 50px;
-    position: relative;
     top: 0;
     left: 0;
     background-color: #fff;
-    overflow-x: hidden;
+    overflow: hidden;
     float: left;
   }
 
@@ -1068,11 +1079,11 @@ footer {
     border-bottom: 1px solid #0a3641;
   }
 
-  .jacket:nth-child(9),
-  .jacket:nth-child(10),
-  .jacket:nth-child(11),
-  .jacket:nth-child(12),
-  .jacket:nth-child(13) {
+  .clear {
+    clear: both;
+  }
+
+  .jacket:nth-child(10) {
     display: block;
   }
 
@@ -1096,8 +1107,12 @@ footer {
     display: grid;
   }
 
+  .jacket-info h2 {
+    display: inline;
+  }
+
   .jacket-options {
-    display: block;
+    display: none;
     margin: 0 0 20px 40px;
   }
 
@@ -1303,6 +1318,7 @@ footer {
 @media screen and (min-width: 1155px) {
   .customer-section {
     display: inline-flex;
+    visibility: hidden;
   }
 
   .star-rating {
@@ -1361,5 +1377,43 @@ footer {
 @media screen and (max-width: 1080px) {
   .jacket-view {
     width: 100%;
+  }
+}
+
+/* Loader */
+
+.loading {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.loading-dot {
+  animation: dot-keyframes 1s infinite ease-in-out;
+  background-color: #0a3641;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.loading-dot:nth-child(2) {
+  animation-delay: 0.33s;
+}
+
+.loading-dot:nth-child(3) {
+  animation-delay: 0.66s;
+}
+
+@keyframes dot-keyframes {
+  0% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
   }
 }
