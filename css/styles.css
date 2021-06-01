@@ -1,3 +1,8 @@
+body {
+  margin: 5px;
+  max-width: 96%;
+}
+
 h1,
 h2,
 h3,
@@ -626,7 +631,7 @@ nav a:hover {
 }
 
 .customer-photos img {
-  width: 100%;
+  width: 97%;
 }
 
 /* Checkout */
