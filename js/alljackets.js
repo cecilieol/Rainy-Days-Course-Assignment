@@ -1,8 +1,9 @@
 /* API CALL */
 
-const url = "https://cecilieol.no/rainy-days/wp-json/wc/store/products/";
+const url = "https://cecilieol.no/rainy-days/wp-json/wc/store/products?_embed&per_page=20";
 
 const jacketContainer = document.querySelector(".jacket-grid");
+const moreJackets = document.querySelector("#more-jackets-btn");
 
 async function getJackets() {
     try {
@@ -39,6 +40,8 @@ async function getJackets() {
                                                 </a>
                                             </div>`
             }
+
+            moreJackets.style.display = "block";
         }
 
     } catch(error) {
@@ -53,3 +56,22 @@ async function getJackets() {
 }
 
 getJackets();
+
+let defaultItems = 9;
+
+moreJackets.addEventListener("click", (e) => {
+
+    const singleJacket = document.querySelectorAll(".jacket");
+
+    for (let i = defaultItems; i < defaultItems + 1; i++) {
+        if (defaultItems < singleJacket.length) {
+            singleJacket[i].style.display = "block";
+        }
+    }
+
+    defaultItems += 1;
+
+    if (defaultItems <= singleJacket.length) {
+        moreJackets.style.display = "none";
+    }
+})
