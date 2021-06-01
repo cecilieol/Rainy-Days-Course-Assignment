@@ -803,7 +803,7 @@ input[value="credit"]:checked ~ .card-info {
 /* Contact */
 
 #contact {
-  overflow: auto;
+  overflow: hidden;
 }
 
 .contact-info {
