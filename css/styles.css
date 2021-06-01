@@ -745,7 +745,7 @@ input[value="credit"]:checked ~ .card-info {
 /* Checkout success */
 
 .order-summary {
-  width: 100%;
+  width: 95%;
   line-height: 50%;
 }
 
