@@ -68,7 +68,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Error styling */
@@ -230,7 +230,7 @@ nav a {
   text-decoration: none;
 }
 
-.active {
+nav a:hover {
   text-decoration: underline;
 }
 
@@ -239,7 +239,8 @@ nav a {
 .sale {
   background: url("../images/Visuals/orange-forest.jpg");
   background-repeat: no-repeat;
-  height: 118px;
+  height: 200px;
+  width: auto;
   text-align: center;
   background-position: center;
   margin-top: 15px;
@@ -250,12 +251,31 @@ nav a {
   color: white;
   margin-top: 0;
   margin-bottom: 0;
-  text-shadow: 3px 3px #000000;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
-.btn-sale-l,
-.btn-sale-r {
-  display: none;
+.btn-sale-l {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #0a3641;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 25px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-sale-l:hover,
+.btn-news:hover,
+#more-jackets-btn,
+.btn-promo {
+  background-color: #07232b;
 }
 
 .newsletter {
@@ -270,7 +290,7 @@ nav a {
 .newsletter h2 {
   color: white;
   padding: 80px 80px 20px 80px;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   margin-right: auto;
   margin-left: auto;
 }
@@ -305,6 +325,12 @@ nav a {
   width: 215px;
 }
 
+.btn-newsletter:hover,
+.btn-review:hover,
+.btn-newsletter-checkout:hover {
+  background-color: #b95d00;
+}
+
 .news {
   background: url("../images/Visuals/yellow-jacket-canoe.jpg");
   color: #0a3641;
@@ -315,7 +341,7 @@ nav a {
 
 .news h2 {
   padding: 10px 40px 10px 40px;
-  text-shadow: 1px 1px #fff;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 .btn-news {
@@ -397,6 +423,7 @@ nav a {
 }
 
 .jacket {
+  display: none;
   margin: 10px;
 }
 
@@ -413,6 +440,40 @@ nav a {
   text-decoration: line-through;
 }
 
+.jacket:nth-child(1),
+.jacket:nth-child(2),
+.jacket:nth-child(3),
+.jacket:nth-child(4),
+.jacket:nth-child(5),
+.jacket:nth-child(6),
+.jacket:nth-child(7),
+.jacket:nth-child(8),
+.jacket:nth-child(9) {
+  display: block;
+}
+
+.view-more-jackets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#more-jackets-btn {
+  display: none;
+  background-color: #0a3641;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  color: white;
+  border: none;
+  font-size: 16px;
+  margin: 15px;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+}
+
 /* Single Jacket */
 
 .jacket-view {
@@ -420,7 +481,7 @@ nav a {
 }
 
 .jacket-view img {
-  width: 90%;
+  width: 85%;
   margin-bottom: 40px;
 }
 
@@ -462,6 +523,11 @@ nav a {
   text-decoration: none;
   display: block;
   font-size: 24px;
+}
+
+.btn-cart:hover,
+.btn-purchase:hover {
+  background-color: #165e3c;
 }
 
 .about-section {
@@ -721,7 +787,7 @@ input[value="credit"]:checked ~ .card-info {
   color: #fff;
   text-align: center;
   padding: 30px;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 /* Contact */
@@ -1015,28 +1081,6 @@ footer {
     font-size: 20px;
   }
 
-  .btn-sale-l,
-  .btn-sale-r {
-    display: block;
-    background-color: #0a3641;
-    border: none;
-    color: white;
-    padding: 15px 20px;
-    text-align: center;
-    text-shadow: none;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 10px 30px 0 30px;
-  }
-
-  .btn-sale-l {
-    float: left;
-  }
-
-  .btn-sale-r {
-    float: right;
-  }
-
   .browse {
     text-align: right;
     margin-right: 55px;
@@ -1081,10 +1125,6 @@ footer {
 
   .clear {
     clear: both;
-  }
-
-  .jacket:nth-child(10) {
-    display: block;
   }
 
   /* Single Jacket*/
@@ -1132,7 +1172,6 @@ footer {
   }
 
   .btn-cart {
-    background-color: #1c744b;
     border: none;
     color: white;
     padding: 15px 100px;
