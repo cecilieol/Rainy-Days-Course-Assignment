@@ -171,7 +171,7 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .logo img {
-  width: 40%;
+  width: 50%;
 }
 
 .search,
@@ -1005,6 +1005,10 @@ footer {
     margin: 15px 0px 10px 0px;
   }
 
+  .logo img {
+    width: 40%;
+  }
+
   .mobile-searchbar,
   #cart-icon {
     display: none;
@@ -1411,6 +1415,11 @@ footer {
   .submit-button {
     display: block;
     padding: 15px 225px;
+  }
+
+  main {
+    margin: 0;
+    max-width: 100%;
   }
 }
 
