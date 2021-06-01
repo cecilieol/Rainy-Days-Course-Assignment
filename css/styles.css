@@ -235,6 +235,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a {
+  font-size: 20px;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -1064,7 +1068,6 @@ footer {
   nav a {
     display: inline-block;
     background-color: #0a3641;
-    font-size: 20px;
     padding: 14px 16px;
   }
 
