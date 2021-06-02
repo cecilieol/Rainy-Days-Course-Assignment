@@ -296,7 +296,11 @@ nav ul {
   padding: 5px 0 15px 15px;
 }
 
-nav h2,
+nav p {
+  font-size: 30px;
+}
+
+nav p,
 nav li,
 nav a {
   color: white;
@@ -1095,7 +1099,7 @@ footer {
     margin-top: 10px;
   }
 
-  nav h2 {
+  nav p {
     display: none;
   }
 
