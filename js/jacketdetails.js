@@ -19,18 +19,12 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-console.log(id);
-
 const url = `https://cecilieol.no/rainy-days/wp-json/wc/store/products/${id}`;
-
-console.log(url);
 
 async function fetchJacket () {
     try {
         const response = await fetch(url);
         const jacket = await response.json();
-
-        console.log(jacket);
 
         titleContainer.innerHTML = `Rainy Days - ${jacket.name}`;
         loadingContainer.innerHTML = "";
@@ -57,7 +51,6 @@ async function fetchJacket () {
         }
 
     } catch(error) {
-        console.log(error);
         loadingContainer.innerHTML = "";
         if (jacketContainer.innerHTML = "") {
             jacketContainer.innerHTML = displayError("An error occurred when calling the API");

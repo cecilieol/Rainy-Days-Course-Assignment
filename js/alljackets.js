@@ -10,15 +10,11 @@ async function getJackets() {
         const response = await fetch(url);
         const result = await response.json();
 
-        console.log(result);
-
         let jackets = result;
 
         jacketContainer.innerHTML = "";
 
         for (let i = 0; i < jackets.length; i++) {
-
-            console.log(jackets[i].name);
 
             if (jackets[i].on_sale) {
                 jacketContainer.innerHTML += `<div class="jacket">
@@ -45,7 +41,6 @@ async function getJackets() {
         }
 
     } catch(error) {
-        console.log(error);
         if (jacketContainer.innerHTML = "") {
             jacketContainer.innerHTML = displayError("An error occurred when calling the API");
         } else {
